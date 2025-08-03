@@ -1,0 +1,570 @@
+Player Name,Nation,Position,Age,Matches Played,Playing Time_Starts,Minutes Played,Yellow Cards,Red Cards,Goals,Assists,Goals+Assists,xG,xAG,npxG + xAG,Per 90 Minutes_Gls,Per 90 Minutes_Ast,Per 90 Minutes_G+A,Per 90 Minutes_xG,Per 90 Minutes_xAG,Team,League_Previous_Season
+David Raya,es ESP,GK,28.0,38.0,38,3420.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Arsenal,English Premier League
+William Saliba,fr FRA,DF,23.0,35.0,35,3039.0,2.0,1.0,2.0,0.0,2.0,2.3,0.9,3.1,0.06,0.0,0.06,0.07,0.03,Arsenal,English Premier League
+Declan Rice,eng ENG,MF,25.0,35.0,33,2825.0,7.0,1.0,4.0,7.0,11.0,3.5,6.6,10.1,0.13,0.22,0.35,0.11,0.21,Arsenal,English Premier League
+Thomas Partey,gh GHA,"MF,DF",31.0,35.0,31,2797.0,4.0,0.0,4.0,2.0,6.0,2.3,2.1,4.3,0.13,0.06,0.19,0.07,0.07,Arsenal,English Premier League
+Leandro Trossard,be BEL,FW,29.0,38.0,28,2546.0,4.0,1.0,8.0,7.0,15.0,7.2,6.1,13.3,0.28,0.25,0.53,0.25,0.22,Arsenal,English Premier League
+Gabriel Magalhães,br BRA,DF,26.0,28.0,28,2363.0,4.0,0.0,3.0,1.0,4.0,2.6,0.9,3.5,0.11,0.04,0.15,0.1,0.03,Arsenal,English Premier League
+Jurriën Timber,nl NED,DF,23.0,30.0,27,2417.0,7.0,0.0,1.0,3.0,4.0,1.2,0.8,2.1,0.04,0.11,0.15,0.05,0.03,Arsenal,English Premier League
+Martin Ødegaard,no NOR,MF,25.0,30.0,26,2325.0,4.0,0.0,3.0,8.0,11.0,4.8,5.4,9.5,0.12,0.31,0.43,0.19,0.21,Arsenal,English Premier League
+Gabriel Martinelli,br BRA,"FW,MF",23.0,33.0,25,2290.0,1.0,0.0,8.0,4.0,12.0,7.4,5.0,12.4,0.31,0.16,0.47,0.29,0.19,Arsenal,English Premier League
+Kai Havertz,de GER,"FW,MF",25.0,23.0,21,1875.0,5.0,0.0,9.0,3.0,12.0,9.5,2.4,12.0,0.43,0.14,0.58,0.46,0.12,Arsenal,English Premier League
+Bukayo Saka,eng ENG,"FW,MF",22.0,25.0,20,1729.0,3.0,0.0,6.0,10.0,16.0,6.8,7.6,13.7,0.31,0.52,0.83,0.36,0.4,Arsenal,English Premier League
+Mikel Merino,es ESP,"MF,FW",28.0,28.0,17,1586.0,4.0,1.0,7.0,2.0,9.0,5.9,2.0,7.9,0.4,0.11,0.51,0.34,0.11,Arsenal,English Premier League
+Myles Lewis-Skelly,eng ENG,DF,17.0,23.0,15,1369.0,3.0,2.0,1.0,0.0,1.0,0.2,0.4,0.6,0.07,0.0,0.07,0.01,0.03,Arsenal,English Premier League
+Ben White,eng ENG,DF,26.0,17.0,13,1198.0,2.0,0.0,0.0,2.0,2.0,0.5,1.4,1.8,0.0,0.15,0.15,0.03,0.1,Arsenal,English Premier League
+Riccardo Calafiori,it ITA,DF,22.0,19.0,11,983.0,4.0,0.0,2.0,1.0,3.0,0.9,0.3,1.1,0.18,0.09,0.27,0.08,0.03,Arsenal,English Premier League
+Ethan Nwaneri,eng ENG,"FW,MF",17.0,26.0,11,895.0,1.0,0.0,4.0,2.0,6.0,1.2,1.2,2.4,0.4,0.2,0.6,0.12,0.12,Arsenal,English Premier League
+Jakub Kiwior,pl POL,DF,24.0,17.0,10,1122.0,1.0,0.0,1.0,0.0,1.0,0.2,0.3,0.5,0.08,0.0,0.08,0.01,0.03,Arsenal,English Premier League
+Jorginho,it ITA,MF,32.0,15.0,9,704.0,5.0,0.0,0.0,0.0,0.0,0.1,0.4,0.5,0.0,0.0,0.0,0.01,0.05,Arsenal,English Premier League
+Raheem Sterling,eng ENG,"FW,MF",29.0,17.0,7,499.0,1.0,0.0,0.0,2.0,2.0,1.4,0.5,1.9,0.0,0.36,0.36,0.26,0.09,Arsenal,English Premier League
+Gabriel Jesus,br BRA,FW,27.0,17.0,6,608.0,4.0,0.0,3.0,0.0,3.0,3.0,0.7,3.7,0.44,0.0,0.44,0.44,0.1,Arsenal,English Premier League
+Oleksandr Zinchenko,ua UKR,"DF,MF",27.0,15.0,5,527.0,1.0,0.0,0.0,1.0,1.0,0.6,0.2,0.8,0.0,0.17,0.17,0.11,0.03,Arsenal,English Premier League
+Kieran Tierney,sct SCO,"DF,FW",27.0,13.0,2,259.0,0.0,0.0,1.0,0.0,1.0,0.4,1.4,1.7,0.35,0.0,0.35,0.12,0.48,Arsenal,English Premier League
+Nathan Butler-Oyedeji,eng ENG,FW,21.0,1.0,0,7.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.94,0.0,Arsenal,English Premier League
+Takehiro Tomiyasu,jp JPN,DF,25.0,1.0,0,7.0,0.0,0.0,0.0,0.0,0.0,0.2,0.0,0.2,0.0,0.0,0.0,2.37,0.0,Arsenal,English Premier League
+Reiss Nelson,eng ENG,FW,24.0,1.0,0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Arsenal,English Premier League
+Emiliano Martínez,ar ARG,GK,31.0,37.0,37,3194.0,5.0,1.0,0.0,0.0,0.0,0.0,0.5,0.5,0.0,0.0,0.0,0.0,0.02,Aston-Villa,English Premier League
+Morgan Rogers,eng ENG,"FW,MF",22.0,37.0,37,3114.0,10.0,0.0,8.0,10.0,18.0,6.6,7.8,14.4,0.23,0.29,0.52,0.19,0.23,Aston-Villa,English Premier League
+Youri Tielemans,be BEL,MF,27.0,36.0,35,3026.0,4.0,0.0,3.0,7.0,10.0,3.3,7.0,9.5,0.09,0.21,0.3,0.1,0.21,Aston-Villa,English Premier League
+Ezri Konsa,eng ENG,DF,26.0,34.0,33,2936.0,1.0,0.0,2.0,0.0,2.0,1.3,0.4,1.7,0.06,0.0,0.06,0.04,0.01,Aston-Villa,English Premier League
+Ollie Watkins,eng ENG,FW,28.0,38.0,31,2598.0,2.0,0.0,16.0,8.0,24.0,15.3,3.3,17.1,0.55,0.28,0.83,0.53,0.12,Aston-Villa,English Premier League
+Lucas Digne,fr FRA,DF,31.0,32.0,28,2351.0,4.0,0.0,0.0,4.0,4.0,0.8,4.7,5.5,0.0,0.15,0.15,0.03,0.18,Aston-Villa,English Premier League
+John McGinn,sct SCO,"MF,FW",29.0,34.0,27,2223.0,7.0,0.0,1.0,4.0,5.0,3.1,3.5,6.3,0.04,0.16,0.2,0.13,0.14,Aston-Villa,English Premier League
+Matty Cash,pl POL,DF,26.0,27.0,24,2070.0,7.0,0.0,1.0,1.0,2.0,0.5,1.1,1.6,0.04,0.04,0.09,0.02,0.05,Aston-Villa,English Premier League
+Pau Torres,es ESP,DF,27.0,24.0,23,2020.0,2.0,0.0,0.0,0.0,0.0,0.5,0.1,0.6,0.0,0.0,0.0,0.02,0.01,Aston-Villa,English Premier League
+Boubacar Kamara,fr FRA,MF,24.0,26.0,20,1726.0,2.0,0.0,1.0,0.0,1.0,0.8,0.9,1.7,0.05,0.0,0.05,0.04,0.05,Aston-Villa,English Premier League
+Amadou Onana,be BEL,MF,22.0,26.0,20,1617.0,4.0,0.0,3.0,0.0,3.0,2.1,0.7,2.8,0.17,0.0,0.17,0.12,0.04,Aston-Villa,English Premier League
+Jacob Ramsey,eng ENG,"FW,MF",23.0,29.0,19,1623.0,4.0,1.0,1.0,3.0,4.0,1.6,2.3,3.9,0.06,0.17,0.22,0.09,0.13,Aston-Villa,English Premier League
+Leon Bailey,jm JAM,"FW,MF",26.0,24.0,14,1139.0,3.0,0.0,1.0,2.0,3.0,1.7,1.5,3.3,0.08,0.16,0.24,0.14,0.12,Aston-Villa,English Premier League
+Tyrone Mings,eng ENG,DF,31.0,14.0,12,1120.0,1.0,0.0,0.0,0.0,0.0,0.8,0.2,1.0,0.0,0.0,0.0,0.07,0.02,Aston-Villa,English Premier League
+Ian Maatsen,nl NED,DF,22.0,29.0,10,1139.0,2.0,0.0,1.0,2.0,3.0,0.9,2.7,3.6,0.08,0.16,0.24,0.07,0.22,Aston-Villa,English Premier League
+Marco Asensio,es ESP,MF,28.0,13.0,9,743.0,2.0,0.0,3.0,1.0,4.0,4.4,1.0,3.8,0.36,0.12,0.48,0.54,0.12,Aston-Villa,English Premier League
+Diego Carlos,br BRA,DF,31.0,10.0,8,830.0,1.0,0.0,0.0,0.0,0.0,0.6,0.0,0.6,0.0,0.0,0.0,0.07,0.0,Aston-Villa,English Premier League
+Axel Disasi,fr FRA,DF,26.0,7.0,5,490.0,2.0,0.0,0.0,0.0,0.0,0.1,0.4,0.5,0.0,0.0,0.0,0.02,0.07,Aston-Villa,English Premier League
+Lamare Bogarde,nl NED,"DF,MF",20.0,8.0,5,476.0,2.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.0,0.0,0.0,0.01,0.02,Aston-Villa,English Premier League
+Andrés García,es ESP,"DF,MF",21.0,7.0,5,318.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.01,0.05,Aston-Villa,English Premier League
+Jáder Durán,co COL,FW,20.0,20.0,4,638.0,3.0,1.0,7.0,0.0,7.0,4.9,0.2,5.1,0.99,0.0,0.99,0.69,0.03,Aston-Villa,English Premier League
+Marcus Rashford,eng ENG,FW,26.0,10.0,4,444.0,0.0,0.0,2.0,2.0,4.0,3.1,2.3,4.5,0.41,0.41,0.81,0.62,0.46,Aston-Villa,English Premier League
+Ross Barkley,eng ENG,MF,30.0,20.0,3,581.0,3.0,0.0,3.0,1.0,4.0,1.8,0.6,2.4,0.46,0.15,0.62,0.27,0.1,Aston-Villa,English Premier League
+Jaden Philogene Bidace,eng ENG,"FW,MF",22.0,11.0,2,332.0,4.0,1.0,0.0,0.0,0.0,0.5,0.3,0.8,0.0,0.0,0.0,0.13,0.08,Aston-Villa,English Premier League
+Donyell Malen,nl NED,FW,25.0,14.0,2,305.0,0.0,0.0,3.0,0.0,3.0,2.2,0.2,2.4,0.89,0.0,0.89,0.64,0.05,Aston-Villa,English Premier League
+Robin Olsen,se SWE,GK,34.0,4.0,1,226.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Aston-Villa,English Premier League
+Kosta Nedeljković,rs SRB,DF,18.0,5.0,0,126.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Aston-Villa,English Premier League
+Emi Buendía,ar ARG,"MF,FW",27.0,12.0,0,98.0,1.0,0.0,0.0,0.0,0.0,0.7,0.0,0.7,0.0,0.0,0.0,0.6,0.02,Aston-Villa,English Premier League
+Milos Kerkez,hu HUN,DF,20.0,38.0,38,3336.0,4.0,0.0,2.0,5.0,7.0,0.6,3.9,4.4,0.05,0.13,0.19,0.02,0.1,Bournemouth,English Premier League
+Antoine Semenyo,gh GHA,FW,24.0,37.0,36,3203.0,9.0,0.0,11.0,5.0,16.0,10.0,5.8,15.8,0.31,0.14,0.45,0.28,0.16,Bournemouth,English Premier League
+Illia Zabarnyi,ua UKR,DF,21.0,36.0,35,3109.0,4.0,1.0,0.0,1.0,1.0,1.3,0.7,2.0,0.0,0.03,0.03,0.04,0.02,Bournemouth,English Premier League
+Lewis Cook,eng ENG,"MF,DF",27.0,36.0,32,2978.0,8.0,1.0,1.0,3.0,4.0,0.9,4.1,5.1,0.03,0.09,0.12,0.03,0.12,Bournemouth,English Premier League
+Kepa Arrizabalaga,es ESP,GK,29.0,31.0,31,2790.0,3.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Justin Kluivert,nl NED,MF,25.0,34.0,29,2340.0,8.0,0.0,12.0,6.0,18.0,10.3,4.8,10.5,0.46,0.23,0.69,0.4,0.19,Bournemouth,English Premier League
+Evanilson,br BRA,FW,24.0,31.0,28,2319.0,1.0,1.0,10.0,1.0,11.0,12.5,1.9,13.6,0.39,0.04,0.43,0.48,0.07,Bournemouth,English Premier League
+Ryan Christie,sct SCO,MF,29.0,29.0,27,2117.0,9.0,0.0,2.0,3.0,5.0,1.8,3.5,5.4,0.09,0.13,0.21,0.08,0.15,Bournemouth,English Premier League
+Dean Huijsen,es ESP,DF,19.0,32.0,26,2427.0,10.0,0.0,3.0,2.0,5.0,1.9,2.0,3.9,0.11,0.07,0.19,0.07,0.08,Bournemouth,English Premier League
+Dango Ouattara,bf BFA,FW,22.0,32.0,21,2005.0,3.0,0.0,7.0,4.0,11.0,8.4,5.5,13.8,0.31,0.18,0.49,0.38,0.25,Bournemouth,English Premier League
+Tyler Adams,us USA,MF,25.0,28.0,21,1965.0,7.0,0.0,0.0,3.0,3.0,1.6,1.0,2.6,0.0,0.14,0.14,0.07,0.05,Bournemouth,English Premier League
+Marcus Tavernier,eng ENG,"FW,MF",25.0,29.0,20,1939.0,6.0,0.0,3.0,5.0,8.0,5.5,4.0,9.5,0.14,0.23,0.37,0.25,0.19,Bournemouth,English Premier League
+Adam Smith,eng ENG,DF,33.0,25.0,19,1590.0,7.0,0.0,0.0,0.0,0.0,0.7,0.4,1.1,0.0,0.0,0.0,0.04,0.02,Bournemouth,English Premier League
+Marcos Senesi,ar ARG,DF,27.0,17.0,13,1106.0,5.0,0.0,0.0,0.0,0.0,0.8,0.2,1.1,0.0,0.0,0.0,0.07,0.02,Bournemouth,English Premier League
+David Brooks,wls WAL,"FW,MF",27.0,29.0,9,960.0,3.0,0.0,2.0,0.0,2.0,2.5,1.9,4.4,0.19,0.0,0.19,0.24,0.18,Bournemouth,English Premier League
+Alex Scott,eng ENG,MF,20.0,20.0,8,755.0,3.0,0.0,0.0,0.0,0.0,0.7,0.9,1.6,0.0,0.0,0.0,0.09,0.11,Bournemouth,English Premier League
+Julian Araujo,mx MEX,DF,22.0,12.0,7,497.0,2.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.01,Bournemouth,English Premier League
+James Hill,eng ENG,DF,22.0,10.0,6,448.0,1.0,0.0,0.0,1.0,1.0,0.3,0.3,0.6,0.0,0.2,0.2,0.06,0.05,Bournemouth,English Premier League
+Mark Travers,ie IRL,GK,25.0,5.0,5,450.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Enes Ünal,tr TUR,"FW,MF",27.0,17.0,2,345.0,2.0,0.0,2.0,1.0,3.0,2.7,0.4,3.1,0.52,0.26,0.78,0.72,0.1,Bournemouth,English Premier League
+Neto,br BRA,GK,35.0,2.0,2,180.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Luis Sinisterra,co COL,"FW,MF",25.0,12.0,1,236.0,0.0,0.0,1.0,1.0,2.0,1.2,1.4,2.6,0.38,0.38,0.76,0.46,0.54,Bournemouth,English Premier League
+Philip Billing,dk DEN,MF,28.0,10.0,1,184.0,1.0,0.0,0.0,0.0,0.0,0.6,1.1,1.7,0.0,0.0,0.0,0.28,0.54,Bournemouth,English Premier League
+Max Aarons,eng ENG,DF,24.0,3.0,1,86.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Daniel Jebbison,ca CAN,FW,20.0,16.0,0,119.0,1.0,0.0,1.0,0.0,1.0,1.0,0.2,1.2,0.76,0.0,0.76,0.75,0.15,Bournemouth,English Premier League
+Ben Winterburn,eng ENG,"MF,FW",19.0,4.0,0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Julio Soler,ar ARG,"DF,FW",19.0,3.0,0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Remy Rees-Dottin,eng ENG,FW,18.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Zain Silcott-Duberry,ms MSR,FW,19.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Bournemouth,English Premier League
+Nathan Collins,ie IRL,DF,23.0,38.0,38,3420.0,5.0,0.0,2.0,3.0,5.0,2.5,1.8,4.3,0.05,0.08,0.13,0.07,0.05,Brentford,English Premier League
+Bryan Mbeumo,cm CMR,FW,24.0,38.0,38,3414.0,3.0,0.0,20.0,7.0,27.0,12.3,8.3,15.9,0.53,0.18,0.71,0.32,0.22,Brentford,English Premier League
+Mark Flekken,nl NED,GK,31.0,37.0,37,3275.0,1.0,0.0,0.0,2.0,2.0,0.0,0.5,0.5,0.0,0.05,0.05,0.0,0.01,Brentford,English Premier League
+Keane Lewis-Potter,eng ENG,"DF,FW",23.0,38.0,36,3093.0,7.0,0.0,1.0,3.0,4.0,3.1,3.2,6.3,0.03,0.09,0.12,0.09,0.09,Brentford,English Premier League
+Yoane Wissa,cd COD,FW,27.0,35.0,34,2919.0,5.0,0.0,19.0,4.0,23.0,18.5,2.6,21.1,0.59,0.12,0.71,0.57,0.08,Brentford,English Premier League
+Mikkel Damsgaard,dk DEN,"MF,FW",24.0,38.0,34,2911.0,2.0,0.0,2.0,10.0,12.0,2.8,8.4,11.2,0.06,0.31,0.37,0.09,0.26,Brentford,English Premier League
+Christian Nørgaard,dk DEN,MF,30.0,34.0,34,2819.0,8.0,1.0,5.0,4.0,9.0,4.3,1.3,5.6,0.16,0.13,0.29,0.14,0.04,Brentford,English Premier League
+Sepp van den Berg,nl NED,DF,22.0,31.0,29,2586.0,3.0,0.0,0.0,0.0,0.0,2.0,0.8,2.8,0.0,0.0,0.0,0.07,0.03,Brentford,English Premier League
+Vitaly Janelt,de GER,MF,26.0,32.0,27,2254.0,3.0,0.0,1.0,3.0,4.0,0.8,2.2,3.0,0.04,0.12,0.16,0.03,0.09,Brentford,English Premier League
+Kevin Schade,de GER,FW,22.0,38.0,26,2293.0,3.0,0.0,11.0,2.0,13.0,8.2,3.7,11.9,0.43,0.08,0.51,0.32,0.14,Brentford,English Premier League
+Ethan Pinnock,jm JAM,DF,31.0,22.0,21,1913.0,2.0,0.0,2.0,0.0,2.0,1.1,1.2,2.3,0.09,0.0,0.09,0.05,0.05,Brentford,English Premier League
+Kristoffer Ajer,no NOR,DF,26.0,24.0,17,1438.0,5.0,0.0,0.0,0.0,0.0,1.0,1.2,2.2,0.0,0.0,0.0,0.06,0.08,Brentford,English Premier League
+Yehor Yarmoliuk,ua UKR,MF,20.0,31.0,15,1450.0,6.0,0.0,0.0,0.0,0.0,0.6,0.9,1.5,0.0,0.0,0.0,0.04,0.05,Brentford,English Premier League
+Mads Roerslev,dk DEN,DF,25.0,19.0,11,1101.0,2.0,0.0,0.0,2.0,2.0,0.2,3.0,3.2,0.0,0.16,0.16,0.02,0.24,Brentford,English Premier League
+Mathias Jensen,dk DEN,MF,28.0,24.0,8,862.0,2.0,0.0,0.0,2.0,2.0,0.2,1.7,1.9,0.0,0.21,0.21,0.03,0.17,Brentford,English Premier League
+Michael Kayode,it ITA,DF,20.0,12.0,6,528.0,2.0,0.0,0.0,1.0,1.0,0.2,1.2,1.5,0.0,0.17,0.17,0.04,0.21,Brentford,English Premier League
+Fabio Carvalho,pt POR,"FW,MF",21.0,19.0,3,455.0,1.0,0.0,2.0,1.0,3.0,2.5,0.7,3.2,0.4,0.2,0.59,0.49,0.13,Brentford,English Premier League
+Ben Mee,eng ENG,DF,34.0,7.0,2,183.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Thiago,br BRA,"FW,MF",23.0,8.0,1,175.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.0,0.0,0.0,0.07,0.04,Brentford,English Premier League
+Hákon Rafn Valdimarsson,is ISL,GK,22.0,2.0,1,145.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Edmond-Paris Maghoma,eng ENG,"MF,FW",23.0,8.0,0,119.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.0,0.0,0.0,0.09,0.08,Brentford,English Premier League
+Rico Henry,eng ENG,DF,27.0,5.0,0,99.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Yunus Emre Konak,tr TUR,"FW,MF",18.0,10.0,0,42.0,0.0,0.0,0.0,0.0,0.0,0.2,0.0,0.2,0.0,0.0,0.0,0.33,0.0,Brentford,English Premier League
+Kim Jisoo,kr KOR,DF,19.0,3.0,0,30.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Frank Onyeka,ng NGA,MF,26.0,2.0,0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Gustavo Nunes,br BRA,"FW,MF",18.0,3.0,0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Jayden Meghoma,eng ENG,DF,18.0,1.0,0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Ryan Trevitt,eng ENG,MF,21.0,1.0,0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brentford,English Premier League
+Bart Verbruggen,nl NED,GK,21.0,36.0,36,3240.0,5.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.03,0.03,0.0,0.0,Brighton-and-Hove-Albion,English Premier League
+Jan Paul van Hecke,nl NED,DF,24.0,34.0,33,2958.0,8.0,1.0,1.0,1.0,2.0,1.3,1.5,2.8,0.03,0.03,0.06,0.04,0.05,Brighton-and-Hove-Albion,English Premier League
+Carlos Baleba,cm CMR,MF,20.0,34.0,31,2661.0,8.0,1.0,3.0,1.0,4.0,3.1,1.3,4.4,0.1,0.03,0.14,0.1,0.05,Brighton-and-Hove-Albion,English Premier League
+Kaoru Mitoma,jp JPN,"FW,MF",27.0,36.0,28,2603.0,1.0,0.0,10.0,4.0,14.0,9.2,4.6,13.8,0.35,0.14,0.48,0.32,0.16,Brighton-and-Hove-Albion,English Premier League
+Pervis Estupiñán,ec ECU,DF,26.0,30.0,26,2402.0,5.0,0.0,1.0,1.0,2.0,1.2,2.1,3.3,0.04,0.04,0.07,0.04,0.08,Brighton-and-Hove-Albion,English Premier League
+Danny Welbeck,eng ENG,FW,33.0,30.0,24,2115.0,5.0,0.0,10.0,4.0,14.0,9.6,1.4,10.1,0.43,0.17,0.6,0.41,0.06,Brighton-and-Hove-Albion,English Premier League
+Lewis Dunk,eng ENG,DF,32.0,25.0,23,2083.0,5.0,0.0,0.0,0.0,0.0,0.8,0.5,1.3,0.0,0.0,0.0,0.03,0.02,Brighton-and-Hove-Albion,English Premier League
+João Pedro,br BRA,"FW,MF",22.0,27.0,23,1948.0,4.0,1.0,10.0,6.0,16.0,8.9,5.0,10.0,0.46,0.28,0.74,0.41,0.23,Brighton-and-Hove-Albion,English Premier League
+Yasin Ayari,se SWE,MF,20.0,34.0,22,1965.0,3.0,0.0,2.0,1.0,3.0,2.4,2.3,4.8,0.09,0.05,0.14,0.11,0.11,Brighton-and-Hove-Albion,English Premier League
+Jack Hinshelwood,eng ENG,"MF,DF",19.0,26.0,22,1842.0,5.0,0.0,5.0,2.0,7.0,2.7,1.5,4.2,0.24,0.1,0.34,0.13,0.07,Brighton-and-Hove-Albion,English Premier League
+Yankuba Minteh,gm GAM,"FW,MF",20.0,32.0,20,1838.0,6.0,0.0,6.0,4.0,10.0,4.1,5.0,9.1,0.29,0.2,0.49,0.2,0.24,Brighton-and-Hove-Albion,English Premier League
+Joël Veltman,nl NED,DF,32.0,21.0,19,1697.0,5.0,0.0,0.0,0.0,0.0,0.5,0.5,0.9,0.0,0.0,0.0,0.02,0.02,Brighton-and-Hove-Albion,English Premier League
+Georginio Rutter,fr FRA,"MF,FW",22.0,28.0,19,1656.0,2.0,0.0,5.0,3.0,8.0,4.6,2.5,7.1,0.27,0.16,0.43,0.25,0.14,Brighton-and-Hove-Albion,English Premier League
+Simon Adingra,ci CIV,"FW,MF",22.0,29.0,12,1097.0,0.0,0.0,2.0,2.0,4.0,2.5,2.5,4.9,0.16,0.16,0.33,0.2,0.2,Brighton-and-Hove-Albion,English Premier League
+Matt O'Riley,dk DEN,MF,23.0,21.0,11,938.0,1.0,0.0,2.0,2.0,4.0,2.8,2.4,4.4,0.19,0.19,0.38,0.27,0.23,Brighton-and-Hove-Albion,English Premier League
+Adam Webster,eng ENG,DF,29.0,14.0,11,887.0,1.0,0.0,0.0,0.0,0.0,0.2,0.5,0.7,0.0,0.0,0.0,0.03,0.05,Brighton-and-Hove-Albion,English Premier League
+Mats Wieffer,nl NED,"DF,MF",24.0,25.0,10,1015.0,6.0,0.0,1.0,3.0,4.0,0.8,1.6,2.4,0.09,0.27,0.35,0.07,0.14,Brighton-and-Hove-Albion,English Premier League
+Igor,br BRA,DF,26.0,13.0,10,961.0,4.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.0,0.02,Brighton-and-Hove-Albion,English Premier League
+Tariq Lamptey,gh GHA,DF,23.0,15.0,10,860.0,0.0,0.0,2.0,2.0,4.0,0.4,0.8,1.2,0.21,0.21,0.42,0.04,0.08,Brighton-and-Hove-Albion,English Premier League
+Brajan Gruda,de GER,"MF,FW",20.0,21.0,8,687.0,0.0,0.0,1.0,4.0,5.0,1.2,2.1,3.3,0.13,0.52,0.66,0.16,0.28,Brighton-and-Hove-Albion,English Premier League
+Ferdi Kadioglu,tr TUR,"DF,MF",24.0,6.0,5,385.0,1.0,0.0,1.0,0.0,1.0,0.4,0.2,0.6,0.23,0.0,0.23,0.1,0.04,Brighton-and-Hove-Albion,English Premier League
+Diego Gómez,py PAR,MF,21.0,16.0,4,516.0,0.0,0.0,1.0,0.0,1.0,0.9,0.7,1.6,0.17,0.0,0.17,0.15,0.13,Brighton-and-Hove-Albion,English Premier League
+James Milner,eng ENG,MF,38.0,4.0,3,170.0,1.0,0.0,0.0,0.0,0.0,0.2,0.2,0.4,0.0,0.0,0.0,0.09,0.12,Brighton-and-Hove-Albion,English Premier League
+Julio Enciso,py PAR,"MF,FW",20.0,12.0,2,294.0,0.0,0.0,0.0,0.0,0.0,1.0,0.2,1.2,0.0,0.0,0.0,0.31,0.07,Brighton-and-Hove-Albion,English Premier League
+Evan Ferguson,ie IRL,FW,19.0,13.0,2,246.0,0.0,0.0,1.0,0.0,1.0,0.5,0.4,1.0,0.37,0.0,0.37,0.2,0.15,Brighton-and-Hove-Albion,English Premier League
+Jason Steele,eng ENG,GK,33.0,2.0,2,180.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brighton-and-Hove-Albion,English Premier League
+Solly March,eng ENG,"FW,MF",30.0,8.0,1,168.0,2.0,0.0,0.0,0.0,0.0,0.1,0.3,0.4,0.0,0.0,0.0,0.05,0.15,Brighton-and-Hove-Albion,English Premier League
+Billy Gilmour,sct SCO,MF,23.0,2.0,1,98.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.07,0.0,Brighton-and-Hove-Albion,English Premier League
+Eiran Cashin,ie IRL,DF,22.0,2.0,0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brighton-and-Hove-Albion,English Premier League
+Jakub Moder,pl POL,MF,25.0,4.0,0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.0,1.45,Brighton-and-Hove-Albion,English Premier League
+Jeremy Sarmiento,ec ECU,MF,22.0,1.0,0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brighton-and-Hove-Albion,English Premier League
+Harry Howell,eng ENG,FW,15.0,1.0,0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Brighton-and-Hove-Albion,English Premier League
+Maxime Estève,fr FRA,DF,22.0,46.0,46,4055.0,3.0,0.0,1.0,0.0,1.0,0.9,0.1,1.0,0.02,0.0,0.02,0.02,0.0,Burnley,EFL Championship
+James Trafford,eng ENG,GK,21.0,45.0,45,4050.0,7.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.0,Burnley,EFL Championship
+Josh Cullen,ie IRL,MF,28.0,44.0,43,3801.0,11.0,0.0,2.0,3.0,5.0,1.7,2.6,4.3,0.05,0.07,0.12,0.04,0.06,Burnley,EFL Championship
+Jaidon Anthony,eng ENG,"FW,MF",24.0,43.0,42,3661.0,4.0,0.0,8.0,7.0,15.0,9.4,8.0,17.3,0.2,0.17,0.37,0.23,0.2,Burnley,EFL Championship
+Connor Roberts,wls WAL,DF,28.0,41.0,40,3636.0,4.0,0.0,2.0,3.0,5.0,2.5,2.4,4.9,0.05,0.07,0.12,0.06,0.06,Burnley,EFL Championship
+CJ Egan-Riley,eng ENG,DF,21.0,41.0,40,3601.0,7.0,1.0,1.0,1.0,2.0,1.0,0.6,1.7,0.02,0.02,0.05,0.03,0.02,Burnley,EFL Championship
+Josh Brownhill,eng ENG,"MF,FW",28.0,42.0,39,3474.0,5.0,0.0,18.0,6.0,24.0,9.9,4.4,12.0,0.47,0.16,0.62,0.26,0.12,Burnley,EFL Championship
+Lucas,br BRA,DF,23.0,34.0,32,2794.0,7.0,0.0,0.0,2.0,2.0,1.0,2.0,3.1,0.0,0.06,0.06,0.03,0.07,Burnley,EFL Championship
+Zian Flemming,nl NED,FW,25.0,35.0,28,2424.0,3.0,0.0,12.0,4.0,16.0,9.1,3.6,12.7,0.45,0.15,0.59,0.34,0.13,Burnley,EFL Championship
+Josh Laurent,eng ENG,MF,29.0,42.0,25,2451.0,4.0,0.0,2.0,2.0,4.0,3.1,3.2,6.3,0.07,0.07,0.15,0.12,0.12,Burnley,EFL Championship
+Hannibal Mejbri,tn TUN,"MF,FW",21.0,37.0,23,1924.0,8.0,1.0,1.0,4.0,5.0,2.6,3.2,5.8,0.05,0.19,0.23,0.12,0.15,Burnley,EFL Championship
+Bashir Humphreys,eng ENG,DF,21.0,25.0,20,1777.0,3.0,1.0,1.0,2.0,3.0,0.6,0.8,1.4,0.05,0.1,0.15,0.03,0.04,Burnley,EFL Championship
+Luca Koleosho,it ITA,"FW,MF",19.0,28.0,20,1677.0,4.0,0.0,2.0,0.0,2.0,1.9,2.4,4.3,0.11,0.0,0.11,0.1,0.13,Burnley,EFL Championship
+Lyle Foster,za RSA,FW,23.0,28.0,17,1590.0,4.0,0.0,2.0,5.0,7.0,4.4,2.7,7.1,0.11,0.28,0.4,0.25,0.15,Burnley,EFL Championship
+Marcus Edwards,eng ENG,"FW,MF",25.0,14.0,12,936.0,1.0,0.0,1.0,1.0,2.0,1.7,2.2,3.8,0.1,0.1,0.19,0.16,0.21,Burnley,EFL Championship
+Jeremy Sarmiento,ec ECU,"FW,MF",22.0,35.0,11,1166.0,4.0,0.0,4.0,0.0,4.0,3.0,0.7,3.7,0.31,0.0,0.31,0.23,0.06,Burnley,EFL Championship
+Jay Rodriguez,eng ENG,FW,35.0,20.0,8,747.0,1.0,0.0,2.0,0.0,2.0,2.5,0.3,2.1,0.24,0.0,0.24,0.3,0.04,Burnley,EFL Championship
+Joe Worrall,eng ENG,DF,27.0,9.0,3,285.0,1.0,0.0,0.0,1.0,1.0,0.3,0.2,0.5,0.0,0.32,0.32,0.09,0.08,Burnley,EFL Championship
+Vitinho,br BRA,"MF,FW",25.0,3.0,3,235.0,0.0,0.0,1.0,1.0,2.0,0.4,0.5,0.9,0.38,0.38,0.77,0.14,0.2,Burnley,EFL Championship
+Andreas Hountondji,bj BEN,"FW,MF",22.0,9.0,2,209.0,0.0,0.0,0.0,0.0,0.0,0.9,0.0,0.9,0.0,0.0,0.0,0.37,0.0,Burnley,EFL Championship
+Dara O'Shea,ie IRL,DF,25.0,2.0,2,180.0,0.0,0.0,1.0,0.0,1.0,0.1,0.0,0.2,0.5,0.0,0.5,0.06,0.02,Burnley,EFL Championship
+John Egan,ie IRL,DF,31.0,7.0,1,165.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,Burnley,EFL Championship
+Ashley Barnes,eng ENG,"FW,MF",34.0,13.0,1,134.0,1.0,0.0,1.0,1.0,2.0,0.9,0.3,1.2,0.67,0.67,1.34,0.61,0.23,Burnley,EFL Championship
+Han-Noah Massengo,fr FRA,MF,23.0,8.0,1,97.0,1.0,0.0,0.0,1.0,1.0,0.2,0.1,0.3,0.0,0.93,0.93,0.22,0.08,Burnley,EFL Championship
+Václav Hladký,cz CZE,GK,33.0,1.0,1,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Burnley,EFL Championship
+Wilson Odobert,fr FRA,MF,19.0,1.0,1,89.0,0.0,0.0,1.0,0.0,1.0,0.6,0.2,0.8,1.01,0.0,1.01,0.58,0.21,Burnley,EFL Championship
+Enock Agyei,be BEL,"FW,MF",19.0,3.0,0,58.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.08,0.08,Burnley,EFL Championship
+Benson Manuel,ao ANG,"MF,FW",27.0,3.0,0,46.0,1.0,0.0,1.0,0.0,1.0,0.1,0.0,0.1,1.96,0.0,1.96,0.2,0.0,Burnley,EFL Championship
+Zeki Amdouni,ch SUI,MF,23.0,2.0,0,35.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,2.57,0.0,2.57,0.09,0.0,Burnley,EFL Championship
+Oliver Sonne,pe PER,DF,23.0,2.0,0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.0,0.62,Burnley,EFL Championship
+Wout Weghorst,nl NED,FW,31.0,2.0,0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Burnley,EFL Championship
+Anass Zaroury,ma MAR,"FW,MF",23.0,1.0,0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Burnley,EFL Championship
+Shurandy Sambo,nl NED,MF,22.0,1.0,0,19.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Burnley,EFL Championship
+Jóhann Berg Guðmundsson,is ISL,MF,33.0,1.0,0,16.0,0.0,0.0,1.0,0.0,1.0,0.1,0.0,0.1,5.63,0.0,5.63,0.45,0.0,Burnley,EFL Championship
+Nathan Redmond,eng ENG,FW,30.0,2.0,0,14.0,0.0,0.0,0.0,1.0,1.0,0.0,0.2,0.2,0.0,6.43,6.43,0.0,1.28,Burnley,EFL Championship
+Jonjo Shelvey,eng ENG,"MF,FW",32.0,2.0,0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0.0,3.13,Burnley,EFL Championship
+Aaron Ramsey,eng ENG,MF,21.0,1.0,0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Burnley,EFL Championship
+Luke McNally,ie IRL,"DF,MF",24.0,2.0,0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Burnley,EFL Championship
+Moisés Caicedo,ec ECU,"MF,DF",22.0,38.0,38,3351.0,11.0,0.0,1.0,2.0,3.0,0.8,3.0,3.8,0.03,0.05,0.08,0.02,0.08,Chelsea,English Premier League
+Cole Palmer,eng ENG,"MF,FW",22.0,37.0,36,3191.0,7.0,0.0,15.0,8.0,23.0,17.3,10.9,24.2,0.42,0.23,0.65,0.49,0.31,Chelsea,English Premier League
+Levi Colwill,eng ENG,DF,21.0,35.0,35,3149.0,9.0,0.0,2.0,1.0,3.0,1.9,1.1,3.0,0.06,0.03,0.09,0.05,0.03,Chelsea,English Premier League
+Marc Cucurella,es ESP,DF,26.0,36.0,33,2988.0,10.0,1.0,5.0,1.0,6.0,2.8,2.1,4.9,0.15,0.03,0.18,0.08,0.06,Chelsea,English Premier League
+Enzo Fernández,ar ARG,MF,23.0,36.0,32,2947.0,8.0,0.0,6.0,7.0,13.0,6.1,6.8,12.9,0.18,0.21,0.4,0.19,0.21,Chelsea,English Premier League
+Robert Sánchez,es ESP,GK,26.0,32.0,32,2880.0,5.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.0,Chelsea,English Premier League
+Nicolas Jackson,sn SEN,FW,23.0,30.0,28,2220.0,7.0,1.0,10.0,5.0,15.0,12.3,4.3,16.6,0.41,0.2,0.61,0.5,0.17,Chelsea,English Premier League
+Noni Madueke,eng ENG,FW,22.0,32.0,27,2033.0,3.0,0.0,7.0,3.0,10.0,9.6,4.2,13.9,0.31,0.13,0.44,0.43,0.19,Chelsea,English Premier League
+Pedro Neto,pt POR,FW,24.0,35.0,24,2269.0,8.0,0.0,4.0,6.0,10.0,3.5,6.7,10.2,0.16,0.24,0.4,0.14,0.27,Chelsea,English Premier League
+Malo Gusto,fr FRA,DF,21.0,32.0,19,1862.0,4.0,0.0,0.0,1.0,1.0,1.7,1.4,3.1,0.0,0.05,0.05,0.08,0.07,Chelsea,English Premier League
+Jadon Sancho,eng ENG,FW,24.0,31.0,19,1764.0,2.0,0.0,3.0,4.0,7.0,2.2,3.7,5.8,0.15,0.2,0.36,0.11,0.19,Chelsea,English Premier League
+Tosin Adarabioyo,eng ENG,DF,26.0,22.0,15,1409.0,4.0,0.0,1.0,1.0,2.0,0.9,0.2,1.2,0.06,0.06,0.13,0.06,0.01,Chelsea,English Premier League
+Wesley Fofana,fr FRA,DF,23.0,14.0,14,1172.0,7.0,0.0,0.0,0.0,0.0,0.4,0.4,0.8,0.0,0.0,0.0,0.03,0.03,Chelsea,English Premier League
+Reece James,eng ENG,"DF,MF",24.0,19.0,12,1063.0,1.0,0.0,1.0,1.0,2.0,0.4,0.7,1.1,0.08,0.08,0.17,0.04,0.06,Chelsea,English Premier League
+Trevoh Chalobah,eng ENG,DF,25.0,13.0,11,910.0,2.0,0.0,0.0,1.0,1.0,0.8,1.2,2.0,0.0,0.1,0.1,0.08,0.12,Chelsea,English Premier League
+Roméo Lavia,be BEL,MF,20.0,16.0,11,797.0,4.0,0.0,0.0,1.0,1.0,0.3,0.7,1.0,0.0,0.11,0.11,0.03,0.08,Chelsea,English Premier League
+Christopher Nkunku,fr FRA,FW,26.0,27.0,9,921.0,2.0,0.0,3.0,2.0,5.0,4.8,2.1,6.9,0.29,0.2,0.49,0.47,0.21,Chelsea,English Premier League
+Filip Jørgensen,dk DEN,GK,22.0,6.0,6,540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Chelsea,English Premier League
+Axel Disasi,fr FRA,DF,26.0,6.0,4,364.0,1.0,0.0,1.0,0.0,1.0,0.3,0.1,0.4,0.25,0.0,0.25,0.07,0.02,Chelsea,English Premier League
+João Félix,pt POR,"FW,MF",24.0,12.0,3,369.0,2.0,0.0,1.0,1.0,2.0,2.2,1.0,3.2,0.24,0.24,0.49,0.54,0.23,Chelsea,English Premier League
+Benoît Badiashile,fr FRA,DF,23.0,5.0,3,334.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Chelsea,English Premier League
+Kiernan Dewsbury-Hall,eng ENG,"MF,FW",25.0,13.0,2,264.0,0.0,0.0,0.0,1.0,1.0,0.2,1.1,1.3,0.0,0.34,0.34,0.08,0.36,Chelsea,English Premier League
+Joshua Acheampong,eng ENG,DF,18.0,4.0,2,170.0,1.0,0.0,0.0,0.0,0.0,0.2,0.0,0.2,0.0,0.0,0.0,0.12,0.0,Chelsea,English Premier League
+Tyrique George,eng ENG,FW,18.0,8.0,1,183.0,1.0,0.0,1.0,1.0,2.0,0.2,0.7,0.9,0.49,0.49,0.98,0.1,0.36,Chelsea,English Premier League
+Renato Veiga,pt POR,"DF,MF",21.0,7.0,1,181.0,2.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.07,0.0,Chelsea,English Premier League
+Mykhailo Mudryk,ua UKR,FW,23.0,7.0,1,151.0,0.0,0.0,0.0,0.0,0.0,0.3,1.0,1.2,0.0,0.0,0.0,0.15,0.58,Chelsea,English Premier League
+Marc Guiu,es ESP,FW,18.0,3.0,0,73.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.04,Chelsea,English Premier League
+Mathis Amougou,fr FRA,MF,18.0,1.0,0,8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Chelsea,English Premier League
+Shumaira Mheuka,eng ENG,MF,16.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,5.06,0.0,Chelsea,English Premier League
+Dean Henderson,eng ENG,GK,27.0,38.0,38,3420.0,3.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.0,0.0,Crystal-Palace,English Premier League
+Daniel Muñoz,co COL,DF,28.0,37.0,37,3228.0,10.0,0.0,4.0,5.0,9.0,4.9,5.5,10.5,0.11,0.14,0.25,0.14,0.15,Crystal-Palace,English Premier League
+Tyrick Mitchell,eng ENG,DF,24.0,37.0,37,3092.0,2.0,0.0,0.0,5.0,5.0,1.3,6.4,7.7,0.0,0.15,0.15,0.04,0.19,Crystal-Palace,English Premier League
+Maxence Lacroix,fr FRA,DF,24.0,35.0,35,3116.0,5.0,0.0,1.0,1.0,2.0,3.4,1.0,4.4,0.03,0.03,0.06,0.1,0.03,Crystal-Palace,English Premier League
+Marc Guéhi,eng ENG,DF,24.0,34.0,34,3059.0,9.0,1.0,3.0,2.0,5.0,2.0,1.8,3.7,0.09,0.06,0.15,0.06,0.05,Crystal-Palace,English Premier League
+Jean-Philippe Mateta,fr FRA,FW,27.0,37.0,33,2648.0,2.0,0.0,14.0,2.0,16.0,13.5,3.2,15.1,0.48,0.07,0.54,0.46,0.11,Crystal-Palace,English Premier League
+Eberechi Eze,eng ENG,"MF,FW",26.0,34.0,31,2588.0,1.0,0.0,8.0,8.0,16.0,10.5,6.2,15.1,0.28,0.28,0.56,0.36,0.22,Crystal-Palace,English Premier League
+Ismaila Sarr,sn SEN,MF,26.0,38.0,30,2711.0,4.0,0.0,8.0,6.0,14.0,10.7,8.5,19.2,0.27,0.2,0.46,0.35,0.28,Crystal-Palace,English Premier League
+Jefferson Lerma,co COL,"MF,DF",29.0,33.0,26,2274.0,9.0,0.0,0.0,1.0,1.0,1.1,1.6,2.7,0.0,0.04,0.04,0.04,0.06,Crystal-Palace,English Premier League
+Will Hughes,eng ENG,MF,29.0,33.0,24,2108.0,11.0,0.0,0.0,3.0,3.0,1.1,3.1,4.2,0.0,0.13,0.13,0.05,0.13,Crystal-Palace,English Premier League
+Chris Richards,us USA,DF,24.0,24.0,22,1922.0,4.0,1.0,1.0,0.0,1.0,1.4,0.1,1.5,0.05,0.0,0.05,0.06,0.0,Crystal-Palace,English Premier League
+Adam Wharton,eng ENG,MF,20.0,20.0,16,1318.0,2.0,0.0,0.0,2.0,2.0,0.4,3.0,3.4,0.0,0.14,0.14,0.03,0.21,Crystal-Palace,English Premier League
+Daichi Kamada,jp JPN,MF,27.0,34.0,15,1564.0,4.0,1.0,0.0,0.0,0.0,1.1,1.9,3.0,0.0,0.0,0.0,0.06,0.11,Crystal-Palace,English Premier League
+Trevoh Chalobah,eng ENG,DF,25.0,12.0,12,1060.0,1.0,0.0,3.0,0.0,3.0,1.2,0.4,1.6,0.25,0.0,0.25,0.1,0.03,Crystal-Palace,English Premier League
+Eddie Nketiah,eng ENG,"FW,MF",25.0,29.0,9,1034.0,6.0,1.0,3.0,1.0,4.0,5.8,1.7,7.4,0.26,0.09,0.35,0.5,0.15,Crystal-Palace,English Premier League
+Nathaniel Clyne,eng ENG,"DF,MF",33.0,13.0,5,483.0,1.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.0,0.0,0.0,0.0,0.06,Crystal-Palace,English Premier League
+Justin Devenny,nir NIR,MF,20.0,23.0,4,507.0,1.0,0.0,1.0,1.0,2.0,0.8,0.6,1.4,0.18,0.18,0.36,0.14,0.11,Crystal-Palace,English Premier League
+Cheick Doucouré,ml MLI,MF,24.0,13.0,4,452.0,1.0,0.0,0.0,0.0,0.0,0.4,0.0,0.4,0.0,0.0,0.0,0.08,0.0,Crystal-Palace,English Premier League
+Ben Chilwell,eng ENG,DF,27.0,8.0,1,259.0,1.0,0.0,1.0,0.0,1.0,0.2,0.8,1.0,0.35,0.0,0.35,0.08,0.26,Crystal-Palace,English Premier League
+Romain Esse,eng ENG,MF,19.0,7.0,1,138.0,0.0,0.0,1.0,1.0,2.0,0.3,0.4,0.7,0.65,0.65,1.3,0.21,0.27,Crystal-Palace,English Premier League
+Odsonne Édouard,fr FRA,"MF,FW",26.0,2.0,1,115.0,0.0,0.0,0.0,0.0,0.0,0.4,0.0,0.4,0.0,0.0,0.0,0.31,0.04,Crystal-Palace,English Premier League
+Joachim Andersen,dk DEN,DF,28.0,1.0,1,90.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.04,0.0,Crystal-Palace,English Premier League
+Chadi Riad,ma MAR,DF,21.0,1.0,1,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Crystal-Palace,English Premier League
+Joel Ward,eng ENG,DF,34.0,2.0,1,71.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.06,Crystal-Palace,English Premier League
+Jeffrey Schlupp,gh GHA,"MF,DF",31.0,12.0,0,103.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.3,0.0,0.0,0.0,0.14,0.14,Crystal-Palace,English Premier League
+Matheus França,br BRA,"MF,FW",20.0,4.0,0,55.0,0.0,0.0,1.0,0.0,1.0,0.3,0.0,0.3,1.64,0.0,1.64,0.42,0.0,Crystal-Palace,English Premier League
+Jordan Ayew,gh GHA,"FW,MF",32.0,1.0,0,21.0,1.0,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.0,0.0,0.0,1.96,0.21,Crystal-Palace,English Premier League
+Caleb Kporha,eng ENG,DF,18.0,2.0,0,13.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Crystal-Palace,English Premier League
+Asher Agbinone,eng ENG,MF,18.0,2.0,0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.0,0.0,0.29,0.5,Crystal-Palace,English Premier League
+Jordan Pickford,eng ENG,GK,30.0,38.0,38,3420.0,7.0,0.0,0.0,1.0,1.0,0.0,0.4,0.4,0.0,0.03,0.03,0.0,0.01,Everton,English Premier League
+Vitaliy Mykolenko,ua UKR,DF,25.0,35.0,35,3082.0,4.0,0.0,1.0,2.0,3.0,0.5,2.6,3.1,0.03,0.06,0.09,0.01,0.08,Everton,English Premier League
+Idrissa Gana Gueye,sn SEN,MF,34.0,37.0,35,3063.0,9.0,0.0,0.0,3.0,3.0,1.1,1.7,2.8,0.0,0.09,0.09,0.03,0.05,Everton,English Premier League
+James Tarkowski,eng ENG,DF,31.0,33.0,33,2922.0,6.0,0.0,1.0,1.0,2.0,1.3,2.9,4.2,0.03,0.03,0.06,0.04,0.09,Everton,English Premier League
+Abdoulaye Doucouré,ml MLI,MF,31.0,33.0,31,2564.0,5.0,1.0,3.0,2.0,5.0,4.1,2.4,6.6,0.11,0.07,0.18,0.15,0.09,Everton,English Premier League
+Iliman Ndiaye,sn SEN,FW,24.0,33.0,29,2430.0,3.0,0.0,9.0,0.0,9.0,6.2,1.9,6.5,0.33,0.0,0.33,0.23,0.07,Everton,English Premier League
+Jarrad Branthwaite,eng ENG,DF,22.0,30.0,28,2511.0,4.0,0.0,0.0,1.0,1.0,1.2,0.7,1.9,0.0,0.04,0.04,0.04,0.02,Everton,English Premier League
+Jack Harrison,eng ENG,FW,27.0,34.0,24,2076.0,0.0,0.0,1.0,0.0,1.0,3.5,3.7,7.2,0.04,0.0,0.04,0.15,0.16,Everton,English Premier League
+Ashley Young,eng ENG,DF,39.0,32.0,19,1875.0,7.0,1.0,1.0,3.0,4.0,0.3,2.3,2.6,0.05,0.14,0.19,0.01,0.11,Everton,English Premier League
+Dominic Calvert-Lewin,eng ENG,FW,27.0,26.0,19,1609.0,2.0,0.0,3.0,1.0,4.0,6.7,0.6,7.4,0.17,0.06,0.22,0.38,0.04,Everton,English Premier League
+James Garner,eng ENG,"MF,DF",23.0,21.0,17,1594.0,5.0,0.0,0.0,1.0,1.0,0.7,1.4,2.1,0.0,0.06,0.06,0.04,0.08,Everton,English Premier League
+Jake O'Brien,ie IRL,DF,23.0,20.0,17,1571.0,5.0,0.0,2.0,0.0,2.0,0.8,0.6,1.3,0.11,0.0,0.11,0.04,0.03,Everton,English Premier League
+Beto,gw GNB,FW,26.0,30.0,15,1534.0,2.0,0.0,8.0,0.0,8.0,8.2,1.2,9.4,0.47,0.0,0.47,0.48,0.07,Everton,English Premier League
+Dwight McNeil,eng ENG,"MF,FW",24.0,21.0,15,1371.0,1.0,0.0,4.0,6.0,10.0,1.1,5.2,6.3,0.26,0.39,0.66,0.07,0.34,Everton,English Premier League
+Jesper Lindstrøm,dk DEN,FW,24.0,25.0,15,1239.0,2.0,0.0,0.0,1.0,1.0,2.1,2.0,4.1,0.0,0.07,0.07,0.15,0.15,Everton,English Premier League
+Orel Mangala,be BEL,MF,26.0,19.0,14,1261.0,2.0,0.0,1.0,0.0,1.0,1.1,0.6,1.8,0.07,0.0,0.07,0.08,0.05,Everton,English Premier League
+Michael Keane,eng ENG,DF,31.0,14.0,11,1049.0,5.0,0.0,3.0,0.0,3.0,0.6,0.1,0.7,0.26,0.0,0.26,0.05,0.01,Everton,English Premier League
+Carlos Alcaraz,ar ARG,"FW,MF",21.0,15.0,7,764.0,4.0,0.0,2.0,3.0,5.0,1.7,1.6,3.4,0.24,0.35,0.59,0.2,0.19,Everton,English Premier League
+Tim Iroegbunam,eng ENG,MF,21.0,18.0,5,574.0,4.0,0.0,0.0,1.0,1.0,0.2,0.2,0.4,0.0,0.16,0.16,0.04,0.03,Everton,English Premier League
+Armando Broja,al ALB,FW,22.0,10.0,4,334.0,1.0,0.0,0.0,0.0,0.0,0.1,0.2,0.3,0.0,0.0,0.0,0.03,0.05,Everton,English Premier League
+Nathan Patterson,sct SCO,DF,22.0,10.0,3,347.0,1.0,0.0,0.0,1.0,1.0,0.1,0.4,0.5,0.0,0.26,0.26,0.02,0.11,Everton,English Premier League
+Séamus Coleman,ie IRL,DF,35.0,5.0,3,215.0,1.0,0.0,0.0,0.0,0.0,0.6,0.0,0.6,0.0,0.0,0.0,0.24,0.0,Everton,English Premier League
+Roman Dixon,eng ENG,DF,19.0,1.0,1,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Everton,English Premier League
+Harrison Armstrong,eng ENG,MF,17.0,3.0,0,48.0,1.0,0.0,0.0,0.0,0.0,0.4,0.1,0.4,0.0,0.0,0.0,0.69,0.14,Everton,English Premier League
+Youssef Chermiti,pt POR,"FW,MF",20.0,4.0,0,45.0,1.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.22,0.0,Everton,English Premier League
+Mason Holgate,jm JAM,"FW,DF",27.0,1.0,0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Everton,English Premier League
+Bernd Leno,de GER,GK,32.0,38.0,38,3420.0,5.0,0.0,0.0,1.0,1.0,0.0,0.1,0.1,0.0,0.03,0.03,0.0,0.0,Fulham,English Premier League
+Antonee Robinson,us USA,DF,26.0,36.0,35,3167.0,8.0,0.0,0.0,10.0,10.0,0.7,4.2,4.9,0.0,0.28,0.28,0.02,0.12,Fulham,English Premier League
+Alex Iwobi,ng NGA,"FW,MF",28.0,38.0,35,2981.0,1.0,0.0,9.0,6.0,15.0,4.7,7.0,11.8,0.27,0.18,0.45,0.14,0.21,Fulham,English Premier League
+Calvin Bassey,ng NGA,DF,24.0,35.0,34,3074.0,7.0,0.0,1.0,0.0,1.0,1.0,0.1,1.2,0.03,0.0,0.03,0.03,0.0,Fulham,English Premier League
+Raúl Jiménez,mx MEX,FW,33.0,38.0,30,2494.0,4.0,0.0,12.0,3.0,15.0,12.0,3.3,12.9,0.43,0.11,0.54,0.43,0.12,Fulham,English Premier League
+Joachim Andersen,dk DEN,DF,28.0,29.0,29,2583.0,6.0,1.0,0.0,0.0,0.0,1.0,0.5,1.5,0.0,0.0,0.0,0.04,0.02,Fulham,English Premier League
+Saša Lukić,rs SRB,MF,27.0,30.0,28,2344.0,12.0,0.0,0.0,2.0,2.0,1.2,2.7,3.9,0.0,0.08,0.08,0.04,0.11,Fulham,English Premier League
+Sander Berge,no NOR,MF,26.0,31.0,26,2224.0,6.0,0.0,0.0,0.0,0.0,0.4,0.6,1.0,0.0,0.0,0.0,0.01,0.03,Fulham,English Premier League
+Emile Smith Rowe,eng ENG,MF,24.0,34.0,25,2043.0,3.0,0.0,6.0,3.0,9.0,4.5,1.4,6.0,0.26,0.13,0.4,0.2,0.06,Fulham,English Premier League
+Andreas Pereira,br BRA,MF,28.0,33.0,25,2013.0,7.0,0.0,2.0,4.0,6.0,3.8,4.6,7.6,0.09,0.18,0.27,0.17,0.21,Fulham,English Premier League
+Kenny Tete,nl NED,DF,28.0,22.0,21,1774.0,5.0,0.0,0.0,2.0,2.0,1.4,0.9,2.3,0.0,0.1,0.1,0.07,0.05,Fulham,English Premier League
+Adama Traoré,es ESP,"FW,MF",28.0,36.0,18,1772.0,3.0,0.0,2.0,7.0,9.0,4.0,4.9,8.9,0.1,0.36,0.46,0.2,0.25,Fulham,English Premier League
+Timothy Castagne,be BEL,DF,28.0,24.0,17,1649.0,1.0,0.0,0.0,1.0,1.0,0.4,1.2,1.6,0.0,0.05,0.05,0.02,0.07,Fulham,English Premier League
+Issa Diop,fr FRA,DF,27.0,21.0,15,1339.0,2.0,0.0,0.0,0.0,0.0,0.5,0.1,0.6,0.0,0.0,0.0,0.04,0.01,Fulham,English Premier League
+Harry Wilson,wls WAL,"FW,MF",27.0,25.0,12,1162.0,2.0,0.0,6.0,1.0,7.0,4.2,1.1,5.3,0.46,0.08,0.54,0.33,0.09,Fulham,English Premier League
+Rodrigo Muniz,br BRA,FW,23.0,31.0,8,964.0,1.0,0.0,8.0,1.0,9.0,5.8,0.7,6.5,0.75,0.09,0.84,0.54,0.07,Fulham,English Premier League
+Ryan Sessegnon,eng ENG,"FW,DF",24.0,16.0,7,580.0,1.0,0.0,4.0,2.0,6.0,1.6,1.1,2.7,0.62,0.31,0.93,0.25,0.17,Fulham,English Premier League
+Reiss Nelson,eng ENG,FW,24.0,11.0,5,487.0,1.0,0.0,1.0,1.0,2.0,1.1,1.0,2.1,0.18,0.18,0.37,0.2,0.18,Fulham,English Premier League
+Jorge Cuenca,es ESP,DF,24.0,8.0,4,351.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,Fulham,English Premier League
+Tom Cairney,sct SCO,MF,33.0,25.0,3,628.0,3.0,1.0,2.0,0.0,2.0,0.8,1.1,1.8,0.29,0.0,0.29,0.11,0.15,Fulham,English Premier League
+Willian,br BRA,"FW,MF",35.0,10.0,2,257.0,0.0,0.0,0.0,0.0,0.0,0.3,0.5,0.8,0.0,0.0,0.0,0.1,0.18,Fulham,English Premier League
+Joshua King,eng ENG,MF,17.0,8.0,1,130.0,0.0,0.0,0.0,0.0,0.0,0.3,0.4,0.7,0.0,0.0,0.0,0.22,0.3,Fulham,English Premier League
+Harrison Reed,eng ENG,MF,29.0,12.0,0,108.0,2.0,0.0,0.0,0.0,0.0,0.2,0.1,0.3,0.0,0.0,0.0,0.21,0.07,Fulham,English Premier League
+Martial Godo,eng ENG,"FW,DF",21.0,2.0,0,24.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.21,Fulham,English Premier League
+Carlos Vinícius,br BRA,"MF,FW",29.0,3.0,0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.21,0.0,Fulham,English Premier League
+Jay Stansfield,eng ENG,MF,21.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Fulham,English Premier League
+Joe Rodon,wls WAL,DF,26.0,46.0,46,4135.0,5.0,0.0,1.0,0.0,1.0,1.2,1.1,2.4,0.02,0.0,0.02,0.03,0.02,Leeds-United,EFL Championship
+Jayden Bogle,eng ENG,DF,24.0,44.0,44,3824.0,12.0,0.0,6.0,4.0,10.0,5.3,6.9,12.3,0.14,0.09,0.24,0.13,0.16,Leeds-United,EFL Championship
+Brenden Aaronson,us USA,MF,23.0,46.0,43,3551.0,1.0,0.0,9.0,2.0,11.0,11.3,5.7,17.0,0.23,0.05,0.28,0.29,0.14,Leeds-United,EFL Championship
+Illan Meslier,fr FRA,GK,24.0,39.0,39,3510.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.0,Leeds-United,EFL Championship
+Ao Tanaka,jp JPN,MF,25.0,43.0,37,3314.0,8.0,0.0,5.0,2.0,7.0,3.6,2.6,6.2,0.14,0.05,0.19,0.1,0.07,Leeds-United,EFL Championship
+Joël Piroe,nl NED,FW,24.0,46.0,36,3080.0,2.0,0.0,19.0,7.0,26.0,16.9,4.5,20.6,0.56,0.2,0.76,0.49,0.13,Leeds-United,EFL Championship
+Pascal Struijk,nl NED,DF,24.0,35.0,31,2824.0,3.0,0.0,5.0,0.0,5.0,5.9,0.5,4.0,0.16,0.0,0.16,0.19,0.02,Leeds-United,EFL Championship
+Junior Firpo,do DOM,DF,27.0,32.0,30,2616.0,7.0,0.0,4.0,10.0,14.0,4.1,6.6,10.8,0.14,0.34,0.48,0.14,0.23,Leeds-United,EFL Championship
+Daniel James,wls WAL,FW,26.0,36.0,30,2609.0,4.0,0.0,12.0,9.0,21.0,10.3,8.7,19.0,0.41,0.31,0.72,0.36,0.3,Leeds-United,EFL Championship
+Manor Solomon,il ISR,FW,25.0,39.0,30,2589.0,3.0,0.0,10.0,12.0,22.0,8.1,12.0,20.1,0.35,0.42,0.76,0.28,0.42,Leeds-United,EFL Championship
+Ethan Ampadu,wls WAL,"DF,MF",23.0,29.0,26,2285.0,7.0,0.0,0.0,0.0,0.0,0.6,1.5,2.0,0.0,0.0,0.0,0.02,0.06,Leeds-United,EFL Championship
+Wilfried Gnonto,it ITA,FW,20.0,43.0,26,2276.0,5.0,0.0,9.0,6.0,15.0,8.3,5.7,13.9,0.36,0.24,0.59,0.33,0.22,Leeds-United,EFL Championship
+Joe Rothwell,eng ENG,MF,29.0,36.0,24,2249.0,2.0,0.0,0.0,4.0,4.0,0.6,4.6,5.3,0.0,0.16,0.16,0.03,0.18,Leeds-United,EFL Championship
+Ilia Gruev,bg BUL,MF,24.0,23.0,20,1699.0,3.0,0.0,0.0,2.0,2.0,1.3,2.4,3.8,0.0,0.11,0.11,0.07,0.13,Leeds-United,EFL Championship
+Sam Byram,eng ENG,DF,30.0,36.0,16,1409.0,4.0,0.0,1.0,1.0,2.0,0.8,1.0,1.9,0.06,0.06,0.13,0.05,0.07,Leeds-United,EFL Championship
+Mateo Joseph,es ESP,FW,20.0,39.0,11,1285.0,0.0,0.0,3.0,3.0,6.0,5.1,1.9,7.0,0.21,0.21,0.42,0.36,0.13,Leeds-United,EFL Championship
+Largie Ramazani,be BEL,FW,23.0,29.0,7,797.0,2.0,0.0,6.0,2.0,8.0,4.7,1.4,6.1,0.68,0.23,0.9,0.53,0.16,Leeds-United,EFL Championship
+Karl Darlow,wls WAL,GK,33.0,7.0,7,630.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Leeds-United,EFL Championship
+Maximilian Wöber,at AUT,DF,26.0,8.0,2,335.0,1.0,0.0,1.0,0.0,1.0,0.7,0.3,1.0,0.27,0.0,0.27,0.18,0.09,Leeds-United,EFL Championship
+Georginio Rutter,fr FRA,"MF,FW",22.0,1.0,1,90.0,0.0,0.0,0.0,1.0,1.0,0.1,0.3,0.4,0.0,1.0,1.0,0.14,0.28,Leeds-United,EFL Championship
+Patrick Bamford,eng ENG,FW,30.0,17.0,0,252.0,0.0,0.0,0.0,0.0,0.0,2.2,0.2,2.3,0.0,0.0,0.0,0.79,0.06,Leeds-United,EFL Championship
+Isaac Schmidt,ch SUI,"FW,DF",24.0,12.0,0,78.0,0.0,0.0,0.0,0.0,0.0,0.2,0.3,0.5,0.0,0.0,0.0,0.2,0.37,Leeds-United,EFL Championship
+Josuha Guilavogui,fr FRA,"MF,DF",33.0,16.0,0,65.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.0,0.0,0.0,0.12,0.1,Leeds-United,EFL Championship
+Samuel Chambers,eng ENG,FW,16.0,1.0,0,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Leeds-United,EFL Championship
+Joe Gelhardt,eng ENG,"FW,MF",22.0,2.0,0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Leeds-United,EFL Championship
+Charlie Crew,wls WAL,MF,18.0,1.0,0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.49,0.0,Leeds-United,EFL Championship
+Harry Gray,eng ENG,MF,15.0,1.0,0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Leeds-United,EFL Championship
+James Debayo,eng ENG,DF,19.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Leeds-United,EFL Championship
+Mohamed Salah,eg EGY,FW,32.0,38.0,38,3371.0,1.0,0.0,29.0,18.0,47.0,25.2,14.2,32.4,0.77,0.48,1.25,0.67,0.38,Liverpool,English Premier League
+Virgil van Dijk,nl NED,DF,33.0,37.0,37,3330.0,5.0,0.0,3.0,1.0,4.0,2.2,0.7,3.0,0.08,0.03,0.11,0.06,0.02,Liverpool,English Premier League
+Ryan Gravenberch,nl NED,MF,22.0,37.0,37,3160.0,6.0,1.0,0.0,4.0,4.0,1.1,3.1,4.2,0.0,0.11,0.11,0.03,0.09,Liverpool,English Premier League
+Alexis Mac Allister,ar ARG,MF,25.0,35.0,30,2599.0,6.0,0.0,5.0,5.0,10.0,2.8,4.7,7.5,0.17,0.17,0.35,0.1,0.16,Liverpool,English Premier League
+Ibrahima Konaté,fr FRA,DF,25.0,31.0,30,2560.0,5.0,0.0,1.0,2.0,3.0,1.7,1.0,2.7,0.04,0.07,0.11,0.06,0.03,Liverpool,English Premier League
+Dominik Szoboszlai,hu HUN,MF,23.0,36.0,29,2491.0,6.0,0.0,6.0,6.0,12.0,7.3,7.4,14.7,0.22,0.22,0.43,0.27,0.27,Liverpool,English Premier League
+Andrew Robertson,sct SCO,DF,30.0,33.0,29,2482.0,3.0,1.0,0.0,1.0,1.0,1.2,4.6,5.8,0.0,0.04,0.04,0.04,0.17,Liverpool,English Premier League
+Alisson,br BRA,GK,31.0,28.0,28,2508.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.6,0.0,0.0,0.0,0.0,0.02,Liverpool,English Premier League
+Luis Díaz,co COL,FW,27.0,36.0,28,2399.0,2.0,0.0,13.0,5.0,18.0,12.0,5.0,17.1,0.49,0.19,0.68,0.45,0.19,Liverpool,English Premier League
+Trent Alexander-Arnold,eng ENG,DF,25.0,33.0,28,2365.0,5.0,0.0,3.0,6.0,9.0,1.9,7.3,9.2,0.11,0.23,0.34,0.07,0.28,Liverpool,English Premier League
+Cody Gakpo,nl NED,FW,25.0,35.0,23,1935.0,5.0,0.0,10.0,4.0,14.0,7.1,4.4,11.5,0.47,0.19,0.65,0.33,0.2,Liverpool,English Premier League
+Curtis Jones,eng ENG,"MF,DF",23.0,33.0,19,1712.0,3.0,1.0,3.0,3.0,6.0,4.3,1.1,5.4,0.16,0.16,0.32,0.23,0.06,Liverpool,English Premier League
+Diogo Jota,pt POR,FW,27.0,26.0,14,1196.0,2.0,0.0,6.0,3.0,9.0,7.9,1.8,9.8,0.45,0.23,0.68,0.6,0.14,Liverpool,English Premier League
+Caoimhín Kelleher,ie IRL,GK,25.0,10.0,10,900.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Liverpool,English Premier League
+Kostas Tsimikas,gr GRE,DF,28.0,18.0,9,837.0,2.0,0.0,0.0,1.0,1.0,0.4,2.1,2.5,0.0,0.11,0.11,0.04,0.23,Liverpool,English Premier League
+Darwin Núñez,uy URU,FW,25.0,30.0,8,1133.0,8.0,0.0,5.0,2.0,7.0,5.8,1.3,7.1,0.4,0.16,0.56,0.46,0.1,Liverpool,English Premier League
+Conor Bradley,nir NIR,DF,21.0,19.0,7,754.0,4.0,0.0,0.0,2.0,2.0,0.7,1.4,2.1,0.0,0.24,0.24,0.08,0.17,Liverpool,English Premier League
+Joe Gomez,eng ENG,DF,27.0,9.0,6,519.0,1.0,0.0,0.0,0.0,0.0,0.3,0.1,0.4,0.0,0.0,0.0,0.06,0.02,Liverpool,English Premier League
+Jarell Quansah,eng ENG,DF,21.0,13.0,4,495.0,2.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.0,0.0,0.0,0.02,0.02,Liverpool,English Premier League
+Harvey Elliott,eng ENG,MF,21.0,18.0,2,371.0,1.0,0.0,1.0,2.0,3.0,1.8,1.1,2.8,0.24,0.49,0.73,0.43,0.26,Liverpool,English Premier League
+Wataru Endo,jp JPN,"MF,DF",31.0,20.0,1,273.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.02,Liverpool,English Premier League
+Federico Chiesa,it ITA,FW,26.0,6.0,1,108.0,0.0,0.0,0.0,0.0,0.0,0.3,0.2,0.5,0.0,0.0,0.0,0.28,0.15,Liverpool,English Premier League
+Vitezslav Jaros,cz CZE,GK,23.0,1.0,0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Liverpool,English Premier League
+Jayden Danns,eng ENG,MF,18.0,1.0,0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Liverpool,English Premier League
+Joško Gvardiol,hr CRO,DF,22.0,37.0,36,3277.0,2.0,0.0,5.0,0.0,5.0,4.6,2.1,6.3,0.14,0.0,0.14,0.13,0.06,Manchester-City,English Premier League
+Erling Haaland,no NOR,FW,24.0,31.0,31,2736.0,2.0,0.0,22.0,3.0,25.0,22.0,3.0,21.8,0.72,0.1,0.82,0.72,0.1,Manchester-City,English Premier League
+Bernardo Silva,pt POR,"MF,FW",29.0,33.0,29,2670.0,7.0,0.0,4.0,4.0,8.0,3.9,5.1,9.0,0.13,0.13,0.27,0.13,0.17,Manchester-City,English Premier League
+Ederson,br BRA,GK,30.0,26.0,26,2320.0,4.0,0.0,0.0,4.0,4.0,0.0,1.5,1.5,0.0,0.16,0.16,0.0,0.06,Manchester-City,English Premier League
+Rúben Dias,pt POR,DF,27.0,27.0,25,2271.0,4.0,0.0,0.0,0.0,0.0,1.5,0.3,1.8,0.0,0.0,0.0,0.06,0.01,Manchester-City,English Premier League
+İlkay Gündoğan,de GER,MF,33.0,33.0,25,2223.0,1.0,0.0,1.0,6.0,7.0,3.2,3.5,6.7,0.04,0.24,0.28,0.13,0.14,Manchester-City,English Premier League
+Mateo Kovačić,hr CRO,MF,30.0,31.0,25,2198.0,5.0,1.0,6.0,2.0,8.0,1.9,3.6,5.5,0.25,0.08,0.33,0.08,0.15,Manchester-City,English Premier League
+Manuel Akanji,ch SUI,DF,29.0,26.0,23,2014.0,3.0,0.0,0.0,0.0,0.0,1.6,0.4,1.9,0.0,0.0,0.0,0.07,0.02,Manchester-City,English Premier League
+Rico Lewis,eng ENG,"DF,MF",19.0,28.0,21,1893.0,5.0,1.0,1.0,2.0,3.0,1.4,0.3,1.7,0.05,0.1,0.14,0.07,0.02,Manchester-City,English Premier League
+Sávio,br BRA,"FW,MF",20.0,29.0,21,1766.0,3.0,0.0,1.0,8.0,9.0,5.0,6.9,11.9,0.05,0.41,0.46,0.26,0.35,Manchester-City,English Premier League
+Phil Foden,eng ENG,"MF,FW",24.0,28.0,20,1777.0,2.0,0.0,7.0,2.0,9.0,5.2,4.8,9.9,0.35,0.1,0.46,0.26,0.24,Manchester-City,English Premier League
+Kevin De Bruyne,be BEL,"MF,FW",33.0,28.0,19,1702.0,2.0,0.0,4.0,7.0,11.0,5.1,8.0,13.1,0.21,0.37,0.58,0.27,0.42,Manchester-City,English Premier League
+Matheus Nunes,pt POR,"DF,MF",25.0,26.0,19,1674.0,4.0,0.0,1.0,6.0,7.0,1.2,4.4,5.6,0.05,0.32,0.38,0.07,0.23,Manchester-City,English Premier League
+Jeremy Doku,be BEL,"FW,MF",22.0,29.0,16,1516.0,1.0,0.0,3.0,6.0,9.0,1.3,4.8,6.1,0.18,0.36,0.53,0.08,0.29,Manchester-City,English Premier League
+Omar Marmoush,eg EGY,"FW,MF",25.0,16.0,14,1175.0,0.0,0.0,7.0,0.0,7.0,5.5,2.8,8.3,0.54,0.0,0.54,0.42,0.21,Manchester-City,English Premier League
+Stefan Ortega,de GER,GK,31.0,13.0,12,1100.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Manchester-City,English Premier League
+Kyle Walker,eng ENG,DF,34.0,15.0,9,970.0,3.0,0.0,0.0,0.0,0.0,0.1,0.4,0.6,0.0,0.0,0.0,0.01,0.04,Manchester-City,English Premier League
+Nicolás González,es ESP,MF,22.0,11.0,9,760.0,3.0,0.0,1.0,0.0,1.0,0.5,0.1,0.5,0.12,0.0,0.12,0.06,0.01,Manchester-City,English Premier League
+Nathan Aké,nl NED,DF,29.0,10.0,8,678.0,0.0,0.0,0.0,0.0,0.0,0.2,0.0,0.2,0.0,0.0,0.0,0.03,0.0,Manchester-City,English Premier League
+Jack Grealish,eng ENG,"FW,MF",28.0,20.0,7,721.0,3.0,0.0,1.0,1.0,2.0,1.1,1.8,3.0,0.12,0.12,0.25,0.14,0.23,Manchester-City,English Premier League
+John Stones,eng ENG,"DF,MF",30.0,11.0,6,548.0,1.0,0.0,2.0,0.0,2.0,0.4,0.1,0.5,0.33,0.0,0.33,0.07,0.01,Manchester-City,English Premier League
+Nico O’Reilly,eng ENG,DF,19.0,9.0,6,528.0,0.0,0.0,2.0,0.0,2.0,1.3,0.4,1.6,0.34,0.0,0.34,0.22,0.06,Manchester-City,English Premier League
+Abdukodir Khusanov,uz UZB,DF,20.0,6.0,6,503.0,1.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.02,Manchester-City,English Premier League
+James Mcatee,eng ENG,"MF,FW",21.0,15.0,3,349.0,1.0,0.0,3.0,0.0,3.0,2.8,0.5,3.3,0.77,0.0,0.77,0.72,0.13,Manchester-City,English Premier League
+Jahmai Simpson-Pusey,eng ENG,DF,18.0,2.0,1,96.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Manchester-City,English Premier League
+Rodri,es ESP,MF,28.0,3.0,1,73.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.06,Manchester-City,English Premier League
+Divin Mubama,eng ENG,FW,19.0,1.0,0,28.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.12,0.0,Manchester-City,English Premier League
+Oscar Bobb,no NOR,FW,21.0,3.0,0,16.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.41,Manchester-City,English Premier League
+Claudio Echeverri,ar ARG,FW,18.0,1.0,0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Manchester-City,English Premier League
+Vitor Reis,br BRA,DF,18.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Manchester-City,English Premier League
+Bruno Fernandes,pt POR,MF,29.0,36.0,35,3018.0,5.0,2.0,8.0,10.0,18.0,9.9,8.5,16.1,0.24,0.3,0.54,0.3,0.25,Manchester-United,English Premier League
+André Onana,cm CMR,GK,28.0,34.0,34,3060.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.0,0.0,Manchester-United,English Premier League
+Noussair Mazraoui,ma MAR,DF,26.0,37.0,34,2838.0,3.0,0.0,0.0,1.0,1.0,0.7,1.5,2.2,0.0,0.03,0.03,0.02,0.05,Manchester-United,English Premier League
+Diogo Dalot,pt POR,DF,25.0,33.0,31,2814.0,5.0,0.0,0.0,3.0,3.0,2.0,2.0,4.1,0.0,0.1,0.1,0.07,0.07,Manchester-United,English Premier League
+Matthijs de Ligt,nl NED,DF,24.0,29.0,25,2123.0,3.0,0.0,2.0,0.0,2.0,2.5,0.3,2.8,0.08,0.0,0.08,0.1,0.01,Manchester-United,English Premier League
+Alejandro Garnacho,ar ARG,"MF,FW",20.0,36.0,23,2199.0,3.0,0.0,6.0,2.0,8.0,7.3,4.5,11.8,0.25,0.08,0.33,0.3,0.19,Manchester-United,English Premier League
+Rasmus Højlund,dk DEN,FW,21.0,32.0,23,2004.0,2.0,0.0,4.0,0.0,4.0,5.3,1.8,7.1,0.18,0.0,0.18,0.24,0.08,Manchester-United,English Premier League
+Manuel Ugarte Ribeiro,uy URU,MF,23.0,29.0,22,1785.0,11.0,0.0,1.0,2.0,3.0,1.0,1.1,2.1,0.05,0.1,0.15,0.05,0.06,Manchester-United,English Premier League
+Amad Diallo,ci CIV,"MF,FW",22.0,26.0,20,1901.0,5.0,0.0,8.0,6.0,14.0,4.7,4.9,9.6,0.38,0.28,0.66,0.22,0.23,Manchester-United,English Premier League
+Lisandro Martínez,ar ARG,DF,26.0,20.0,20,1751.0,7.0,0.0,2.0,1.0,3.0,1.3,1.1,2.4,0.1,0.05,0.15,0.07,0.06,Manchester-United,English Premier League
+Harry Maguire,eng ENG,DF,31.0,27.0,19,1758.0,7.0,0.0,1.0,0.0,1.0,1.8,0.6,2.4,0.05,0.0,0.05,0.09,0.03,Manchester-United,English Premier League
+Kobbie Mainoo,eng ENG,MF,19.0,25.0,19,1651.0,5.0,0.0,0.0,0.0,0.0,0.7,1.6,2.3,0.0,0.0,0.0,0.04,0.09,Manchester-United,English Premier League
+Casemiro,br BRA,MF,32.0,24.0,18,1494.0,5.0,0.0,1.0,0.0,1.0,1.9,2.3,4.2,0.06,0.0,0.06,0.11,0.14,Manchester-United,English Premier League
+Joshua Zirkzee,nl NED,"FW,MF",23.0,32.0,14,1402.0,2.0,0.0,3.0,1.0,4.0,4.8,1.5,6.3,0.19,0.06,0.26,0.31,0.1,Manchester-United,English Premier League
+Leny Yoro,fr FRA,DF,18.0,21.0,12,1165.0,5.0,0.0,0.0,0.0,0.0,0.7,0.1,0.8,0.0,0.0,0.0,0.05,0.01,Manchester-United,English Premier League
+Marcus Rashford,eng ENG,"FW,MF",26.0,15.0,12,978.0,2.0,0.0,4.0,1.0,5.0,1.7,2.1,3.8,0.37,0.09,0.46,0.16,0.19,Manchester-United,English Premier League
+Christian Eriksen,dk DEN,MF,32.0,23.0,11,1061.0,4.0,0.0,1.0,2.0,3.0,1.4,3.2,3.8,0.08,0.17,0.25,0.12,0.27,Manchester-United,English Premier League
+Patrick Dorgu,dk DEN,DF,19.0,12.0,10,842.0,3.0,1.0,0.0,0.0,0.0,0.4,0.7,1.2,0.0,0.0,0.0,0.05,0.08,Manchester-United,English Premier League
+Mason Mount,eng ENG,MF,25.0,17.0,8,622.0,3.0,0.0,1.0,0.0,1.0,3.2,0.6,3.8,0.14,0.0,0.14,0.47,0.08,Manchester-United,English Premier League
+Victor Lindelöf,se SWE,DF,30.0,16.0,6,704.0,1.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.01,Manchester-United,English Premier League
+Altay Bayındır,tr TUR,GK,26.0,4.0,4,360.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Manchester-United,English Premier League
+Luke Shaw,eng ENG,DF,29.0,7.0,4,349.0,1.0,0.0,0.0,0.0,0.0,0.0,0.7,0.7,0.0,0.0,0.0,0.01,0.18,Manchester-United,English Premier League
+Harry Amass,eng ENG,DF,17.0,5.0,4,346.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.02,0.01,Manchester-United,English Premier League
+Jonny Evans,nir NIR,DF,36.0,7.0,3,315.0,1.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.04,0.0,Manchester-United,English Premier League
+Ayden Heaven,eng ENG,DF,17.0,4.0,2,170.0,1.0,0.0,0.0,0.0,0.0,0.1,0.0,0.2,0.0,0.0,0.0,0.07,0.01,Manchester-United,English Premier League
+Tyler Fredricson,eng ENG,DF,19.0,2.0,2,165.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Manchester-United,English Premier League
+Tyrell Malacia,nl NED,DF,24.0,3.0,2,100.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.03,Manchester-United,English Premier League
+Chidozie Obi-Martin,dk DEN,FW,16.0,7.0,1,165.0,1.0,0.0,0.0,0.0,0.0,0.7,0.0,0.7,0.0,0.0,0.0,0.36,0.0,Manchester-United,English Premier League
+Toby Collyer,eng ENG,MF,20.0,6.0,0,179.0,0.0,0.0,0.0,0.0,0.0,0.2,0.3,0.4,0.0,0.0,0.0,0.09,0.13,Manchester-United,English Premier League
+Antony,br BRA,"DF,MF",24.0,8.0,0,141.0,0.0,0.0,0.0,0.0,0.0,1.0,0.1,1.1,0.0,0.0,0.0,0.65,0.08,Manchester-United,English Premier League
+Scott McTominay,sct SCO,MF,27.0,2.0,0,19.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.33,0.0,Manchester-United,English Premier League
+Bruno Guimarães,br BRA,MF,26.0,38.0,38,3271.0,7.0,0.0,5.0,6.0,11.0,4.3,6.1,10.4,0.14,0.17,0.3,0.12,0.17,Newcastle-United,English Premier League
+Dan Burn,eng ENG,DF,32.0,37.0,37,3330.0,11.0,0.0,1.0,1.0,2.0,2.0,0.9,2.8,0.03,0.03,0.05,0.05,0.02,Newcastle-United,English Premier League
+Alexander Isak,se SWE,FW,24.0,34.0,34,2756.0,1.0,0.0,23.0,6.0,29.0,20.3,4.3,21.6,0.75,0.2,0.95,0.66,0.14,Newcastle-United,English Premier League
+Fabian Schär,ch SUI,DF,32.0,34.0,33,2934.0,9.0,1.0,4.0,0.0,4.0,3.7,0.4,4.1,0.12,0.0,0.12,0.11,0.01,Newcastle-United,English Premier League
+Valentino Livramento,eng ENG,DF,21.0,37.0,32,2840.0,1.0,0.0,0.0,1.0,1.0,0.3,2.6,2.9,0.0,0.03,0.03,0.01,0.08,Newcastle-United,English Premier League
+Jacob Murphy,eng ENG,FW,29.0,35.0,31,2360.0,4.0,0.0,8.0,12.0,20.0,5.7,8.9,14.6,0.31,0.46,0.76,0.22,0.34,Newcastle-United,English Premier League
+Joelinton,br BRA,"MF,FW",27.0,29.0,29,2393.0,10.0,0.0,4.0,3.0,7.0,3.9,2.5,6.4,0.15,0.11,0.26,0.15,0.09,Newcastle-United,English Premier League
+Sandro Tonali,it ITA,MF,24.0,36.0,28,2630.0,5.0,0.0,4.0,2.0,6.0,4.4,2.2,6.6,0.14,0.07,0.21,0.15,0.07,Newcastle-United,English Premier League
+Nick Pope,eng ENG,GK,32.0,28.0,28,2520.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Newcastle-United,English Premier League
+Anthony Gordon,eng ENG,"FW,MF",23.0,34.0,28,2434.0,2.0,0.0,6.0,5.0,11.0,8.0,5.0,11.4,0.22,0.18,0.41,0.3,0.18,Newcastle-United,English Premier League
+Lewis Hall,eng ENG,DF,19.0,27.0,24,2189.0,3.0,0.0,0.0,4.0,4.0,0.4,4.3,4.7,0.0,0.16,0.16,0.02,0.18,Newcastle-United,English Premier League
+Harvey Barnes,eng ENG,FW,26.0,33.0,17,1755.0,0.0,0.0,9.0,4.0,13.0,7.2,4.0,11.2,0.46,0.21,0.67,0.37,0.2,Newcastle-United,English Premier League
+Kieran Trippier,eng ENG,DF,33.0,25.0,14,1309.0,1.0,0.0,0.0,3.0,3.0,0.1,1.4,1.5,0.0,0.21,0.21,0.01,0.1,Newcastle-United,English Premier League
+Joe Willock,eng ENG,"MF,FW",24.0,32.0,11,1086.0,4.0,0.0,0.0,2.0,2.0,1.6,2.1,3.8,0.0,0.17,0.17,0.14,0.18,Newcastle-United,English Premier League
+Martin Dúbravka,sk SVK,GK,35.0,10.0,10,900.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Newcastle-United,English Premier League
+Sean Longstaff,eng ENG,MF,26.0,25.0,8,798.0,2.0,0.0,0.0,0.0,0.0,0.6,0.2,0.8,0.0,0.0,0.0,0.07,0.02,Newcastle-United,English Premier League
+Sven Botman,nl NED,DF,24.0,8.0,6,412.0,1.0,0.0,0.0,0.0,0.0,0.5,0.5,1.1,0.0,0.0,0.0,0.12,0.12,Newcastle-United,English Premier League
+Lloyd Kelly,eng ENG,DF,25.0,10.0,4,303.0,2.0,0.0,0.0,1.0,1.0,0.4,0.5,0.9,0.0,0.3,0.3,0.12,0.14,Newcastle-United,English Premier League
+Callum Wilson,eng ENG,FW,32.0,18.0,2,370.0,1.0,0.0,0.0,0.0,0.0,0.4,0.1,0.5,0.0,0.0,0.0,0.09,0.03,Newcastle-United,English Premier League
+Emil Krafth,se SWE,DF,29.0,12.0,2,342.0,2.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.01,0.02,Newcastle-United,English Premier League
+Lewis Miley,eng ENG,MF,18.0,14.0,1,313.0,0.0,0.0,1.0,0.0,1.0,0.5,0.0,0.6,0.29,0.0,0.29,0.16,0.01,Newcastle-United,English Premier League
+Miguel Almirón,py PAR,FW,30.0,9.0,1,157.0,0.0,0.0,0.0,0.0,0.0,0.5,0.3,0.8,0.0,0.0,0.0,0.3,0.15,Newcastle-United,English Premier League
+William Osula,dk DEN,FW,20.0,14.0,0,134.0,0.0,0.0,1.0,0.0,1.0,0.2,0.1,0.3,0.67,0.0,0.67,0.11,0.1,Newcastle-United,English Premier League
+Matt Targett,eng ENG,DF,28.0,2.0,0,21.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Newcastle-United,English Premier League
+Matz Sels,be BEL,GK,32.0,38.0,38,3420.0,4.0,0.0,0.0,0.0,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0.0,0.01,Nottingham-Forest,English Premier League
+Nikola Milenković,rs SRB,DF,26.0,37.0,37,3330.0,4.0,0.0,5.0,2.0,7.0,4.0,1.1,5.1,0.14,0.05,0.19,0.11,0.03,Nottingham-Forest,English Premier League
+Murillo,br BRA,DF,22.0,36.0,36,3188.0,6.0,0.0,2.0,0.0,2.0,1.4,1.2,2.6,0.06,0.0,0.06,0.04,0.03,Nottingham-Forest,English Premier League
+Ola Aina,ng NGA,DF,27.0,35.0,35,2995.0,5.0,0.0,2.0,1.0,3.0,0.6,1.4,2.1,0.06,0.03,0.09,0.02,0.04,Nottingham-Forest,English Premier League
+Chris Wood,nz NZL,FW,32.0,36.0,35,2959.0,1.0,0.0,20.0,3.0,23.0,13.4,2.6,13.6,0.61,0.09,0.7,0.41,0.08,Nottingham-Forest,English Premier League
+Morgan Gibbs-White,eng ENG,MF,24.0,34.0,34,2803.0,11.0,1.0,7.0,8.0,15.0,6.3,5.0,11.2,0.22,0.26,0.48,0.2,0.16,Nottingham-Forest,English Premier League
+Elliot Anderson,eng ENG,MF,21.0,37.0,33,2728.0,10.0,0.0,2.0,6.0,8.0,2.1,3.3,5.4,0.07,0.2,0.26,0.07,0.11,Nottingham-Forest,English Premier League
+Anthony Elanga,se SWE,"FW,MF",22.0,38.0,31,2501.0,1.0,0.0,6.0,11.0,17.0,4.5,5.7,10.1,0.22,0.4,0.61,0.16,0.2,Nottingham-Forest,English Premier League
+Neco Williams,wls WAL,DF,23.0,35.0,28,2594.0,7.0,0.0,1.0,3.0,4.0,2.3,1.6,3.9,0.03,0.1,0.14,0.08,0.05,Nottingham-Forest,English Premier League
+Callum Hudson-Odoi,eng ENG,"FW,MF",23.0,31.0,25,2194.0,2.0,0.0,5.0,2.0,7.0,2.5,2.7,5.2,0.21,0.08,0.29,0.1,0.11,Nottingham-Forest,English Premier League
+Nicolás Domínguez,ar ARG,"MF,FW",26.0,34.0,23,1963.0,9.0,0.0,0.0,1.0,1.0,1.5,1.3,2.8,0.0,0.05,0.05,0.07,0.06,Nottingham-Forest,English Premier League
+Ryan Yates,eng ENG,MF,26.0,35.0,18,1915.0,10.0,0.0,2.0,1.0,3.0,2.3,1.2,3.5,0.09,0.05,0.14,0.11,0.05,Nottingham-Forest,English Premier League
+Álex Moreno,es ESP,"DF,MF",31.0,15.0,11,955.0,2.0,0.0,0.0,1.0,1.0,0.2,1.3,1.4,0.0,0.09,0.09,0.02,0.12,Nottingham-Forest,English Premier League
+Ibrahim Sangaré,ci CIV,MF,26.0,13.0,7,590.0,3.0,0.0,0.0,1.0,1.0,0.0,0.4,0.4,0.0,0.15,0.15,0.0,0.06,Nottingham-Forest,English Premier League
+Morato,br BRA,DF,23.0,26.0,6,907.0,5.0,0.0,0.0,0.0,0.0,0.2,0.0,0.2,0.0,0.0,0.0,0.02,0.0,Nottingham-Forest,English Premier League
+Jota Silva,pt POR,"FW,MF",24.0,31.0,5,854.0,5.0,0.0,3.0,1.0,4.0,2.1,2.9,5.0,0.32,0.11,0.42,0.22,0.3,Nottingham-Forest,English Premier League
+James Ward-Prowse,eng ENG,MF,29.0,9.0,5,400.0,2.0,1.0,0.0,1.0,1.0,0.1,1.1,1.2,0.0,0.23,0.23,0.01,0.25,Nottingham-Forest,English Premier League
+Danilo,br BRA,"MF,FW",23.0,8.0,5,275.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Nottingham-Forest,English Premier League
+Taiwo Awoniyi,ng NGA,FW,26.0,26.0,3,416.0,0.0,0.0,1.0,0.0,1.0,2.1,0.1,2.2,0.22,0.0,0.22,0.46,0.02,Nottingham-Forest,English Premier League
+Ramón Sosa,py PAR,"FW,MF",24.0,19.0,1,295.0,1.0,0.0,1.0,0.0,1.0,1.0,0.5,1.5,0.31,0.0,0.31,0.31,0.15,Nottingham-Forest,English Premier League
+Willy Boly,ci CIV,DF,33.0,6.0,1,150.0,1.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.04,0.0,Nottingham-Forest,English Premier League
+Harry Toffolo,eng ENG,DF,28.0,4.0,1,137.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,Nottingham-Forest,English Premier League
+Eric da Silva Moreira,de GER,"MF,DF",18.0,2.0,0,30.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Nottingham-Forest,English Premier League
+Luke O'Nien,eng ENG,DF,29.0,45.0,44,3934.0,9.0,0.0,3.0,1.0,4.0,3.3,1.0,3.5,0.07,0.02,0.09,0.08,0.02,Sunderland,EFL Championship
+Dan Neil,eng ENG,MF,22.0,44.0,44,3877.0,4.0,1.0,2.0,3.0,5.0,0.8,2.1,3.0,0.05,0.07,0.12,0.02,0.05,Sunderland,EFL Championship
+Trai Hume,nir NIR,DF,22.0,44.0,43,3810.0,11.0,1.0,3.0,6.0,9.0,2.0,7.2,9.3,0.07,0.14,0.21,0.05,0.17,Sunderland,EFL Championship
+Anthony Patterson,eng ENG,GK,24.0,42.0,42,3780.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sunderland,EFL Championship
+Jobe Bellingham,eng ENG,MF,18.0,40.0,39,3507.0,10.0,1.0,4.0,3.0,7.0,3.0,2.9,5.9,0.1,0.08,0.18,0.08,0.07,Sunderland,EFL Championship
+Patrick Roberts,eng ENG,"FW,MF",27.0,45.0,38,3280.0,8.0,0.0,2.0,7.0,9.0,5.7,5.3,9.4,0.05,0.19,0.25,0.16,0.14,Sunderland,EFL Championship
+Chris Mepham,wls WAL,DF,26.0,38.0,37,3273.0,10.0,1.0,1.0,0.0,1.0,1.7,0.6,2.3,0.03,0.0,0.03,0.05,0.02,Sunderland,EFL Championship
+Chris Rigg,eng ENG,"MF,FW",17.0,42.0,36,3055.0,8.0,0.0,4.0,1.0,5.0,5.8,3.0,8.8,0.12,0.03,0.15,0.17,0.09,Sunderland,EFL Championship
+Wilson Isidor,fr FRA,FW,23.0,43.0,34,3112.0,9.0,0.0,12.0,2.0,14.0,15.2,3.8,17.4,0.35,0.06,0.4,0.44,0.11,Sunderland,EFL Championship
+Dennis Cirkin,eng ENG,DF,22.0,36.0,30,2740.0,6.0,0.0,3.0,2.0,5.0,2.0,2.1,4.0,0.1,0.07,0.16,0.07,0.07,Sunderland,EFL Championship
+Eliezer Mayenda,es ESP,"FW,MF",19.0,37.0,22,2155.0,2.0,0.0,8.0,5.0,13.0,9.7,3.8,13.5,0.33,0.21,0.54,0.41,0.16,Sunderland,EFL Championship
+Romaine Mundle,eng ENG,"FW,MF",21.0,22.0,17,1433.0,1.0,0.0,5.0,2.0,7.0,2.2,1.4,3.7,0.31,0.13,0.44,0.14,0.09,Sunderland,EFL Championship
+Alan Browne,ie IRL,"MF,DF",29.0,22.0,13,1212.0,1.0,0.0,1.0,0.0,1.0,1.4,0.4,1.8,0.07,0.0,0.07,0.11,0.03,Sunderland,EFL Championship
+Daniel Ballard,nir NIR,DF,24.0,20.0,12,1127.0,3.0,0.0,2.0,1.0,3.0,1.4,0.3,1.7,0.16,0.08,0.24,0.11,0.03,Sunderland,EFL Championship
+Enzo Le Fée,fr FRA,"FW,MF",24.0,15.0,11,1001.0,2.0,0.0,1.0,1.0,2.0,0.9,2.3,3.2,0.09,0.09,0.18,0.08,0.21,Sunderland,EFL Championship
+Tom Watson,eng ENG,"FW,MF",18.0,20.0,11,891.0,2.0,0.0,2.0,0.0,2.0,1.9,0.9,2.8,0.2,0.0,0.2,0.19,0.09,Sunderland,EFL Championship
+Ajibola Alese,eng ENG,DF,23.0,12.0,8,703.0,2.0,0.0,0.0,0.0,0.0,0.5,0.5,1.0,0.0,0.0,0.0,0.06,0.06,Sunderland,EFL Championship
+Leo Fuhr Hjelde,no NOR,DF,20.0,15.0,5,410.0,3.0,0.0,0.0,1.0,1.0,0.0,0.2,0.2,0.0,0.22,0.22,0.0,0.03,Sunderland,EFL Championship
+Simon Moore,eng ENG,GK,34.0,4.0,4,360.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sunderland,EFL Championship
+Adil Aouchiche,fr FRA,"FW,MF",22.0,8.0,3,296.0,0.0,0.0,0.0,1.0,1.0,0.5,1.6,2.1,0.0,0.3,0.3,0.15,0.48,Sunderland,EFL Championship
+Milan Aleksić,rs SRB,"MF,FW",18.0,8.0,3,290.0,1.0,0.0,0.0,0.0,0.0,0.8,0.3,1.1,0.0,0.0,0.0,0.25,0.1,Sunderland,EFL Championship
+Salis Abdul Samed,gh GHA,MF,24.0,10.0,3,283.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,Sunderland,EFL Championship
+Aaron Connolly,ie IRL,"FW,MF",24.0,10.0,2,246.0,0.0,0.0,1.0,0.0,1.0,0.7,0.0,0.7,0.37,0.0,0.37,0.25,0.0,Sunderland,EFL Championship
+Jack Clarke,eng ENG,FW,23.0,2.0,2,179.0,0.0,0.0,1.0,1.0,2.0,0.1,1.1,1.2,0.5,0.5,1.01,0.05,0.56,Sunderland,EFL Championship
+Harrison Jones,eng ENG,MF,19.0,4.0,2,132.0,1.0,0.0,0.0,0.0,0.0,0.1,0.3,0.4,0.0,0.0,0.0,0.08,0.17,Sunderland,EFL Championship
+Joe Anderson,eng ENG,DF,23.0,2.0,1,99.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sunderland,EFL Championship
+Ian Poveda,eng ENG,"FW,MF",24.0,6.0,0,86.0,2.0,0.0,0.0,0.0,0.0,0.1,0.2,0.2,0.0,0.0,0.0,0.06,0.17,Sunderland,EFL Championship
+Nazariy Rusyn,ua UKR,FW,25.0,8.0,0,72.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.02,Sunderland,EFL Championship
+Jenson Seelt,nl NED,DF,21.0,1.0,0,22.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sunderland,EFL Championship
+Nectarios Triantis,au AUS,FW,21.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Sunderland,EFL Championship
+Pedro Porro,es ESP,DF,24.0,33.0,28,2610.0,5.0,0.0,2.0,6.0,8.0,1.6,5.0,6.6,0.07,0.21,0.28,0.05,0.17,Tottenham-Hotspur,English Premier League
+Dejan Kulusevski,se SWE,"MF,FW",24.0,32.0,27,2389.0,3.0,0.0,7.0,4.0,11.0,4.2,6.2,10.4,0.26,0.15,0.41,0.16,0.23,Tottenham-Hotspur,English Premier League
+Dominic Solanke,eng ENG,FW,26.0,27.0,25,2201.0,0.0,0.0,9.0,3.0,12.0,10.9,2.9,13.1,0.37,0.12,0.49,0.45,0.12,Tottenham-Hotspur,English Premier League
+Brennan Johnson,wls WAL,FW,23.0,33.0,24,2177.0,5.0,0.0,11.0,3.0,14.0,10.4,2.3,12.7,0.45,0.12,0.58,0.43,0.09,Tottenham-Hotspur,English Premier League
+Guglielmo Vicario,it ITA,GK,27.0,24.0,24,2160.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Tottenham-Hotspur,English Premier League
+Son Heung-min,kr KOR,FW,32.0,30.0,24,2110.0,1.0,0.0,7.0,9.0,16.0,7.2,8.2,13.9,0.3,0.38,0.68,0.31,0.35,Tottenham-Hotspur,English Premier League
+Destiny Udogie,it ITA,DF,21.0,25.0,24,1924.0,2.0,0.0,0.0,1.0,1.0,0.3,1.5,1.8,0.0,0.05,0.05,0.01,0.07,Tottenham-Hotspur,English Premier League
+Pape Matar Sarr,sn SEN,MF,21.0,36.0,22,1913.0,6.0,0.0,3.0,2.0,5.0,3.7,1.6,5.3,0.14,0.09,0.24,0.17,0.08,Tottenham-Hotspur,English Premier League
+James Maddison,eng ENG,MF,27.0,31.0,21,1809.0,6.0,0.0,9.0,7.0,16.0,5.8,4.2,10.0,0.45,0.35,0.8,0.29,0.21,Tottenham-Hotspur,English Premier League
+Rodrigo Bentancur,uy URU,MF,27.0,26.0,21,1645.0,9.0,0.0,2.0,0.0,2.0,1.3,0.4,1.7,0.11,0.0,0.11,0.07,0.02,Tottenham-Hotspur,English Premier League
+Djed Spence,eng ENG,DF,23.0,25.0,19,1792.0,4.0,1.0,1.0,2.0,3.0,0.6,1.8,2.3,0.05,0.1,0.15,0.03,0.09,Tottenham-Hotspur,English Premier League
+Archie Gray,eng ENG,"DF,MF",18.0,28.0,19,1751.0,1.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.0,0.0,0.0,0.0,0.01,Tottenham-Hotspur,English Premier League
+Cristian Romero,ar ARG,DF,26.0,18.0,18,1416.0,3.0,0.0,1.0,0.0,1.0,1.6,0.6,2.2,0.06,0.0,0.06,0.1,0.04,Tottenham-Hotspur,English Premier League
+Yves Bissouma,ml MLI,MF,27.0,28.0,16,1408.0,7.0,0.0,2.0,0.0,2.0,0.6,0.3,0.9,0.13,0.0,0.13,0.04,0.02,Tottenham-Hotspur,English Premier League
+Ben Davies,wls WAL,DF,31.0,17.0,14,1331.0,5.0,0.0,0.0,0.0,0.0,0.3,0.2,0.5,0.0,0.0,0.0,0.02,0.01,Tottenham-Hotspur,English Premier League
+Radu Drăgușin,ro ROU,DF,22.0,16.0,14,1252.0,1.0,0.0,0.0,0.0,0.0,0.1,0.4,0.5,0.0,0.0,0.0,0.01,0.03,Tottenham-Hotspur,English Premier League
+Micky van de Ven,nl NED,DF,23.0,13.0,12,1015.0,4.0,0.0,0.0,2.0,2.0,0.6,1.2,1.7,0.0,0.18,0.18,0.05,0.1,Tottenham-Hotspur,English Premier League
+Lucas Bergvall,se SWE,MF,18.0,27.0,11,1212.0,3.0,0.0,0.0,1.0,1.0,0.7,0.6,1.3,0.0,0.07,0.07,0.05,0.04,Tottenham-Hotspur,English Premier League
+Mathys Tel,fr FRA,FW,19.0,13.0,11,911.0,2.0,0.0,2.0,1.0,3.0,3.0,2.6,4.7,0.2,0.1,0.3,0.29,0.25,Tottenham-Hotspur,English Premier League
+Wilson Odobert,fr FRA,"FW,MF",19.0,16.0,9,850.0,0.0,0.0,1.0,0.0,1.0,1.6,1.0,2.6,0.11,0.0,0.11,0.17,0.1,Tottenham-Hotspur,English Premier League
+Kevin Danso,at AUT,DF,25.0,10.0,9,842.0,0.0,0.0,0.0,0.0,0.0,0.4,0.1,0.5,0.0,0.0,0.0,0.04,0.01,Tottenham-Hotspur,English Premier League
+Fraser Forster,eng ENG,GK,36.0,7.0,7,630.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Tottenham-Hotspur,English Premier League
+Antonín Kinský,cz CZE,GK,21.0,6.0,6,540.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.0,0.0,0.0,0.0,0.01,Tottenham-Hotspur,English Premier League
+Timo Werner,de GER,"FW,MF",28.0,18.0,4,516.0,0.0,0.0,0.0,3.0,3.0,1.0,2.5,3.5,0.0,0.52,0.52,0.17,0.44,Tottenham-Hotspur,English Premier League
+Richarlison,br BRA,FW,27.0,15.0,4,504.0,2.0,0.0,4.0,1.0,5.0,3.7,0.9,4.6,0.71,0.18,0.89,0.66,0.16,Tottenham-Hotspur,English Premier League
+Mikey Moore,eng ENG,FW,16.0,10.0,3,366.0,0.0,0.0,0.0,1.0,1.0,0.2,0.3,0.5,0.0,0.25,0.25,0.05,0.08,Tottenham-Hotspur,English Premier League
+Sergio Reguilón,es ESP,DF,27.0,4.0,1,196.0,2.0,0.0,0.0,0.0,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.05,0.01,Tottenham-Hotspur,English Premier League
+Brandon Austin,eng ENG,GK,25.0,1.0,1,90.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Tottenham-Hotspur,English Premier League
+Dane Scarlett,eng ENG,"FW,MF",20.0,3.0,0,34.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.1,0.0,2.65,2.65,0.09,0.12,Tottenham-Hotspur,English Premier League
+Alfie Dorrington,eng ENG,DF,19.0,1.0,0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Tottenham-Hotspur,English Premier League
+Will Lankshear,eng ENG,"FW,MF",19.0,3.0,0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Tottenham-Hotspur,English Premier League
+Max Kilman,eng ENG,DF,27.0,38.0,38,3348.0,5.0,0.0,0.0,1.0,1.0,1.6,1.2,2.8,0.0,0.03,0.03,0.04,0.03,West-Ham-United,English Premier League
+Aaron Wan-Bissaka,eng ENG,DF,26.0,36.0,35,3154.0,1.0,0.0,2.0,5.0,7.0,1.2,3.5,4.7,0.06,0.14,0.2,0.03,0.1,West-Ham-United,English Premier League
+Jarrod Bowen,eng ENG,"FW,MF",27.0,34.0,34,2973.0,1.0,0.0,13.0,8.0,21.0,8.6,6.8,14.7,0.39,0.24,0.64,0.26,0.21,West-Ham-United,English Premier League
+Mohammed Kudus,gh GHA,"FW,MF",23.0,32.0,31,2590.0,2.0,1.0,5.0,3.0,8.0,6.9,3.1,10.0,0.17,0.1,0.28,0.24,0.11,West-Ham-United,English Premier League
+Tomáš Souček,cz CZE,MF,29.0,35.0,30,2567.0,8.0,0.0,9.0,1.0,10.0,6.7,1.0,7.8,0.32,0.04,0.35,0.24,0.04,West-Ham-United,English Premier League
+Lucas Paquetá,br BRA,"MF,FW",26.0,33.0,27,2380.0,10.0,0.0,4.0,0.0,4.0,5.3,3.1,6.8,0.15,0.0,0.15,0.2,0.12,West-Ham-United,English Premier League
+Emerson Palmieri,it ITA,DF,29.0,31.0,26,2113.0,5.0,0.0,2.0,1.0,3.0,2.0,1.5,3.4,0.09,0.04,0.13,0.08,0.06,West-Ham-United,English Premier League
+Alphonse Areola,fr FRA,GK,31.0,26.0,25,2260.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,West-Ham-United,English Premier League
+Konstantinos Mavropanos,gr GRE,DF,26.0,33.0,21,2045.0,6.0,1.0,0.0,0.0,0.0,1.5,0.5,2.0,0.0,0.0,0.0,0.07,0.02,West-Ham-United,English Premier League
+Jean-Clair Todibo,fr FRA,DF,24.0,27.0,20,1825.0,3.0,0.0,0.0,0.0,0.0,0.4,0.0,0.4,0.0,0.0,0.0,0.02,0.0,West-Ham-United,English Premier League
+Edson Álvarez,mx MEX,MF,26.0,28.0,20,1772.0,9.0,1.0,0.0,1.0,1.0,0.4,0.8,1.2,0.0,0.05,0.05,0.02,0.04,West-Ham-United,English Premier League
+Guido Rodríguez,ar ARG,MF,30.0,23.0,16,1149.0,6.0,0.0,0.0,1.0,1.0,0.2,0.2,0.4,0.0,0.08,0.08,0.02,0.01,West-Ham-United,English Premier League
+Carlos Soler,es ESP,"MF,FW",27.0,31.0,14,1409.0,6.0,0.0,1.0,1.0,2.0,1.8,1.4,3.2,0.06,0.06,0.13,0.12,0.09,West-Ham-United,English Premier League
+Łukasz Fabiański,pl POL,GK,39.0,14.0,13,1160.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,West-Ham-United,English Premier League
+James Ward-Prowse,eng ENG,MF,29.0,15.0,12,1039.0,2.0,0.0,1.0,1.0,2.0,1.6,1.9,3.6,0.09,0.09,0.17,0.14,0.17,West-Ham-United,English Premier League
+Vladimír Coufal,cz CZE,DF,31.0,22.0,11,1067.0,5.0,0.0,0.0,0.0,0.0,0.3,0.7,1.0,0.0,0.0,0.0,0.03,0.06,West-Ham-United,English Premier League
+Michail Antonio,jm JAM,FW,34.0,14.0,11,836.0,1.0,0.0,1.0,1.0,2.0,2.2,1.6,3.8,0.11,0.11,0.22,0.24,0.17,West-Ham-United,English Premier League
+Aaron Cresswell,eng ENG,DF,34.0,18.0,10,824.0,3.0,0.0,0.0,0.0,0.0,0.2,1.3,1.6,0.0,0.0,0.0,0.03,0.15,West-Ham-United,English Premier League
+Crysencio Summerville,nl NED,"FW,MF",22.0,19.0,7,786.0,2.0,0.0,1.0,1.0,2.0,1.6,1.7,3.3,0.11,0.11,0.23,0.19,0.19,West-Ham-United,English Premier League
+Oliver Scarles,eng ENG,"DF,FW",18.0,15.0,7,665.0,1.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.0,0.0,0.0,0.01,0.01,West-Ham-United,English Premier League
+Niclas Füllkrug,de GER,FW,31.0,18.0,6,790.0,2.0,0.0,3.0,2.0,5.0,2.2,1.9,4.1,0.34,0.23,0.57,0.25,0.22,West-Ham-United,English Premier League
+Danny Ings,eng ENG,"FW,MF",32.0,15.0,1,284.0,0.0,0.0,1.0,2.0,3.0,2.3,1.3,3.5,0.32,0.63,0.95,0.72,0.41,West-Ham-United,English Premier League
+Andy Irving,sct SCO,MF,24.0,10.0,1,166.0,2.0,0.0,0.0,0.0,0.0,0.1,0.2,0.4,0.0,0.0,0.0,0.06,0.13,West-Ham-United,English Premier League
+Evan Ferguson,ie IRL,FW,19.0,8.0,1,156.0,0.0,0.0,0.0,0.0,0.0,0.6,0.3,0.9,0.0,0.0,0.0,0.32,0.17,West-Ham-United,English Premier League
+Luis Guilherme,br BRA,"MF,FW",18.0,12.0,1,150.0,0.0,0.0,0.0,0.0,0.0,0.4,0.1,0.5,0.0,0.0,0.0,0.25,0.05,West-Ham-United,English Premier League
+Lewis Orford,eng ENG,MF,18.0,2.0,0,49.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.05,0.04,West-Ham-United,English Premier League
+Kaelan Casey,eng ENG,DF,19.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,West-Ham-United,English Premier League
+Rayan Aït-Nouri,dz ALG,DF,23.0,37.0,37,3109.0,7.0,1.0,4.0,7.0,11.0,2.7,5.5,8.2,0.12,0.2,0.32,0.08,0.16,Wolverhampton-Wanderers,English Premier League
+João Gomes,br BRA,MF,23.0,36.0,35,2974.0,11.0,1.0,3.0,1.0,4.0,2.9,1.2,4.1,0.09,0.03,0.12,0.09,0.04,Wolverhampton-Wanderers,English Premier League
+Nélson Semedo,pt POR,DF,30.0,34.0,32,2886.0,8.0,0.0,0.0,4.0,4.0,0.9,2.8,3.7,0.0,0.12,0.12,0.03,0.09,Wolverhampton-Wanderers,English Premier League
+André,br BRA,MF,23.0,33.0,31,2472.0,7.0,0.0,0.0,0.0,0.0,0.4,0.8,1.3,0.0,0.0,0.0,0.02,0.03,Wolverhampton-Wanderers,English Premier League
+Toti Gomes,pt POR,DF,25.0,31.0,30,2614.0,7.0,0.0,0.0,1.0,1.0,0.7,0.9,1.7,0.0,0.03,0.03,0.03,0.03,Wolverhampton-Wanderers,English Premier League
+Jørgen Strand Larsen,no NOR,FW,24.0,35.0,30,2587.0,4.0,0.0,14.0,4.0,18.0,10.3,3.0,13.3,0.49,0.14,0.63,0.36,0.1,Wolverhampton-Wanderers,English Premier League
+José Sá,pt POR,GK,31.0,29.0,29,2609.0,2.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.0,0.0,0.0,0.0,0.01,Wolverhampton-Wanderers,English Premier League
+Matheus Cunha,br BRA,"MF,FW",25.0,33.0,29,2597.0,4.0,0.0,15.0,6.0,21.0,8.6,7.7,16.4,0.52,0.21,0.73,0.3,0.27,Wolverhampton-Wanderers,English Premier League
+Matt Doherty,ie IRL,DF,32.0,30.0,25,2109.0,6.0,0.0,2.0,1.0,3.0,1.0,1.5,2.6,0.09,0.04,0.13,0.04,0.07,Wolverhampton-Wanderers,English Premier League
+Jean-Ricner Bellegarde,fr FRA,"MF,FW",26.0,35.0,20,1677.0,3.0,0.0,2.0,7.0,9.0,1.5,3.8,5.3,0.11,0.38,0.48,0.08,0.2,Wolverhampton-Wanderers,English Premier League
+Santiago Bueno,uy URU,DF,25.0,29.0,18,1687.0,2.0,0.0,0.0,0.0,0.0,0.4,0.0,0.4,0.0,0.0,0.0,0.02,0.0,Wolverhampton-Wanderers,English Premier League
+Emmanuel Agbadou,ci CIV,DF,27.0,16.0,16,1410.0,3.0,0.0,1.0,0.0,1.0,0.8,0.2,1.1,0.06,0.0,0.06,0.05,0.02,Wolverhampton-Wanderers,English Premier League
+Mario Lemina,ga GAB,"MF,DF",30.0,17.0,15,1364.0,4.0,0.0,1.0,3.0,4.0,1.4,1.1,2.5,0.07,0.2,0.26,0.09,0.07,Wolverhampton-Wanderers,English Premier League
+Marshall Munetsi,zw ZIM,"MF,FW",28.0,14.0,12,1078.0,0.0,0.0,2.0,1.0,3.0,3.3,1.8,5.1,0.17,0.08,0.25,0.28,0.15,Wolverhampton-Wanderers,English Premier League
+Gonçalo Guedes,pt POR,"MF,FW",27.0,29.0,10,995.0,1.0,0.0,2.0,4.0,6.0,3.2,1.3,4.5,0.18,0.36,0.54,0.29,0.11,Wolverhampton-Wanderers,English Premier League
+Craig Dawson,eng ENG,DF,34.0,15.0,10,971.0,2.0,0.0,0.0,0.0,0.0,0.5,0.0,0.5,0.0,0.0,0.0,0.05,0.0,Wolverhampton-Wanderers,English Premier League
+Pablo Sarabia,es ESP,"MF,FW",32.0,23.0,7,814.0,3.0,0.0,3.0,2.0,5.0,2.9,1.8,4.6,0.33,0.22,0.55,0.32,0.19,Wolverhampton-Wanderers,English Premier League
+Rodrigo Gomes,pt POR,"DF,FW",21.0,25.0,7,810.0,0.0,0.0,2.0,0.0,2.0,0.7,0.9,1.6,0.22,0.0,0.22,0.08,0.1,Wolverhampton-Wanderers,English Premier League
+Sam Johnstone,eng ENG,GK,31.0,7.0,7,630.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Wolverhampton-Wanderers,English Premier League
+Hwang Hee-chan,kr KOR,"MF,FW",28.0,21.0,5,661.0,0.0,0.0,2.0,0.0,2.0,0.8,0.1,0.9,0.27,0.0,0.27,0.11,0.02,Wolverhampton-Wanderers,English Premier League
+Yerson Mosquera,co COL,DF,23.0,5.0,5,441.0,2.0,0.0,0.0,0.0,0.0,0.3,0.1,0.4,0.0,0.0,0.0,0.07,0.02,Wolverhampton-Wanderers,English Premier League
+Tommy Doyle,eng ENG,MF,22.0,24.0,3,488.0,1.0,0.0,0.0,1.0,1.0,0.6,0.5,1.1,0.0,0.18,0.18,0.1,0.09,Wolverhampton-Wanderers,English Premier League
+Daniel Bentley,eng ENG,GK,31.0,2.0,2,180.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Wolverhampton-Wanderers,English Premier League
+Carlos Forbs,pt POR,"MF,FW",20.0,10.0,1,239.0,2.0,0.0,0.0,0.0,0.0,0.1,0.0,0.2,0.0,0.0,0.0,0.05,0.01,Wolverhampton-Wanderers,English Premier League
+Pedro Lima,br BRA,DF,18.0,3.0,1,70.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.0,0.0,0.0,0.07,0.09,Wolverhampton-Wanderers,English Premier League
+Nasser Djiga,bf BFA,DF,21.0,5.0,1,66.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Wolverhampton-Wanderers,English Premier League
+Daniel Podence,pt POR,"MF,FW",28.0,2.0,0,48.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.07,0.0,Wolverhampton-Wanderers,English Premier League
+Chiquinho,pt POR,MF,24.0,1.0,0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.42,Wolverhampton-Wanderers,English Premier League
+Tom King,wls WAL,GK,29.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Wolverhampton-Wanderers,English Premier League
+Alfie Pond,eng ENG,DF,20.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Wolverhampton-Wanderers,English Premier League
+Boubacar Traoré,ml MLI,MF,22.0,1.0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Wolverhampton-Wanderers,English Premier League
