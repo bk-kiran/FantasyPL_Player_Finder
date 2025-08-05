@@ -1,14 +1,17 @@
 package com.epl.fantasy_player_finder.player;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity //maps to pl stats database table
 @Table(name="player_statistics")
 public class Player {
 
     @Id  // primary key
-    @Column(name = "player_name", unique = true)
-    private String player_name;
+    @Column(name = "playerName", unique = true)
+    private String playerName;
 
     private String nation;
     private String position;
@@ -32,8 +35,12 @@ public class Player {
     private String team_name;
     private String league_last_season;
 
-    public Player(String player_name, String nation, String position, Double age, Double matches_played, Integer matches_started, Double minutes_played, Double yellow_cards, Double red_cards, Double goals, Double assists, Double goals_assists, Double expected_goals, Double expected_assists, Double expected_g_and_a, Double goals_per_game, Double assists_per_game, Double g_and_a_per_game, Double expected_goals_per_game, Double expected_assists_per_game, String team_name, String league_last_season) {
-        this.player_name = player_name;
+    public Player() {
+
+    }
+
+    public Player(String playerName, String nation, String position, Double age, Double matches_played, Integer matches_started, Double minutes_played, Double yellow_cards, Double red_cards, Double goals, Double assists, Double goals_assists, Double expected_goals, Double expected_assists, Double expected_g_and_a, Double goals_per_game, Double assists_per_game, Double g_and_a_per_game, Double expected_goals_per_game, Double expected_assists_per_game, String team_name, String league_last_season) {
+        this.playerName = playerName;
         this.nation = nation;
         this.position = position;
         this.age = age;
@@ -57,12 +64,12 @@ public class Player {
         this.league_last_season = league_last_season;
     }
 
-    public String getPlayer_name() {
-        return player_name;
+    public String getPlayerName() {
+        return playerName;
     }
 
-    public void setPlayer_name(String player_name) {
-        this.player_name = player_name;
+    public void setPlayerName(String playerName) {
+        this.playerName = playerName;
     }
 
     public String getNation() {
