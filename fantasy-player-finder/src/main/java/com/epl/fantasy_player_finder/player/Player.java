@@ -153,7 +153,17 @@ public class Player {
     }
 
     public Double getGoals_assists() {
-        return goals_assists;
+        // If the database field has a value, use it
+        if (goals_assists != null) {
+            return goals_assists;
+        }
+        // Otherwise calculate it
+        if (goals == null && assists == null) {
+            return null;
+        }
+        double goalValue = goals != null ? goals : 0.0;
+        double assistValue = assists != null ? assists : 0.0;
+        return goalValue + assistValue;
     }
 
     public void setGoals_assists(Double goals_assists) {
@@ -239,4 +249,5 @@ public class Player {
     public void setLeague_last_season(String league_last_season) {
         this.league_last_season = league_last_season;
     }
+
 }

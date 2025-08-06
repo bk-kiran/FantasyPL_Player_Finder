@@ -74,4 +74,34 @@ public class PlayerController {
         playerService.deletePlayer(playerName);
         return new ResponseEntity<>("Player deleted successfully", HttpStatus.OK);
     }
+
+    @PostMapping("/filter")
+    public List<Player> filterPlayers(@RequestBody PlayerFilter playerFilter) {
+        return playerService.filterPlayers(playerFilter);
+    }
+
+    // New endpoints to support frontend filtering UI
+    @GetMapping("/teams")
+    public List<String> getAllTeams() {
+        return playerService.getAllTeamNames();
+    }
+
+    @GetMapping("/positions")
+    public List<String> getAllPositions() {
+        return playerService.getAllPositions();
+    }
+
+    @GetMapping("/nations")
+    public List<String> getAllNations() {
+        return playerService.getAllNations();
+    }
+
+    @GetMapping("/stats")
+    public PlayerService.PlayerStats getPlayerStats() {
+        return playerService.getPlayerStats();
+    }
+
+
+
+
 }
