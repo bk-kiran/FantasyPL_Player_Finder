@@ -24,8 +24,10 @@ public interface PlayerRepository extends JpaRepository<Player, String>, JpaSpec
           AND (:maxGoals IS NULL OR goals <= :maxGoals)
           AND (:minAssists IS NULL OR assists >= :minAssists)
           AND (:maxAssists IS NULL OR assists <= :maxAssists)
-          AND (:minGoalsAndAssists IS NULL OR goals_assists >= :minGoalsAndAssists)
-          AND (:maxGoalsAndAssists IS NULL OR goals_assists <= :maxGoalsAndAssists)
+           AND (:minGoalsAndAssists IS NULL OR\s
+                       COALESCE(goals_assists, COALESCE(goals, 0) + COALESCE(assists, 0)) >= :minGoalsAndAssists)
+           AND (:maxGoalsAndAssists IS NULL OR\s
+                       COALESCE(goals_assists, COALESCE(goals, 0) + COALESCE(assists, 0)) <= :maxGoalsAndAssists)
           AND (:minMatchesPlayed IS NULL OR matches_played >= :minMatchesPlayed)
           AND (:maxMatchesPlayed IS NULL OR matches_played <= :maxMatchesPlayed)
           AND (:minMatchesStarted IS NULL OR matches_started >= :minMatchesStarted)
