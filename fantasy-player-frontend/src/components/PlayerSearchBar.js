@@ -104,6 +104,24 @@ const PlayerSearchBar = () => {
     </div>
   )
 
+  const StatsCard = ({icon: Icon, label, value, color = "blue"}) => (
+    <div className={`bg-white rounded-lg border-l-4 border-${color}-500 p-4 shadow-sm hover:shadow-md transition-shadow duration-200`}>
+      <div className="flex items-center">
+        <div className={`flex-shrink-0 p-2 bg-${color}-100 rounded-lg`}>
+          <Icon className={`w-5 h-5 text-${color}-600`} />
+        </div>
+        <div className="ml-4">
+          <p className="text-sm font-medium text-gray-600">{label}</p>
+          <p className="text-xl font-semibold text-gray-900">
+            {value !== null && value !== undefined ? (
+              typeof value === 'number' ? value.toFixed(1) : value
+            ) : 'N/A'}
+          </p>
+        </div>
+      </div>
+    </div>
+  )
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -154,23 +172,49 @@ const PlayerSearchBar = () => {
 
             {/* Search Results */}
             {players.length > 0 && (
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                <div className="lg:col-span-3">
-                    <h2 className="text-xl font-semibold text-gray-900 mb-4">
-                        Search Results ({players.length})
-                    </h2>
-                    <div className="space-y-3">
-                        {players.map((player, index) => (
-                        <PlayerCard
-                            key={`${player.playerName}-${player.team_name}-${index}`} //random unique key
-                            player={player}
-                            isSelected={selectedPlayer?.playerName === player.playerName}
-                            onClick={handlePlayerSelect}
-                        />
-                        ))}
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div className="lg:col-span-3">
+                        <h2 className="text-xl font-semibold text-gray-900 mb-4">
+                            Search Results ({players.length})
+                        </h2>
+                        <div className="space-y-3">
+                            {players.map((player, index) => (
+                            <PlayerCard
+                                key={`${player.playerName}-${player.team_name}-${index}`} //random unique key
+                                player={player}
+                                isSelected={selectedPlayer?.playerName === player.playerName}
+                                onClick={
+                                    handlePlayerSelect}
+                            />
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="lg:col-span-2">
+                        {selectedPlayer ? (
+                            <div className="bg-white rounded-xl shadow-lg p-6">
+                                <div className="border-b border-gray-200 pb-6 mb-6">
+                                    <div className="flex items-start justify-between">
+                                        <h2 className="text-3xl font-bold text-gray-900 mb-2">
+                                            {selectedPlayer.playerName}
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        ) : (
+                            <div className="bg-white rounded-xl shadow-lg p-12 text-center">
+                                <FaCircleUser className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+                                <h3 className="text-lg font-medium text-gray-900 mb-2">
+                                    Select a Player
+                                </h3>
+                                <p className="text-gray-600">
+                                    Click on a player from the search results to view their detailed statistics.
+                                </p>
+                            </div>
+                        )}
                     </div>
                 </div>
-            </div>
+                
             )}
         </div>
     </div>
