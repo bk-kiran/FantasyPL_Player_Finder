@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import { FaEarthEurope, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaSearchengin } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom';
 
 
 const PlayerSearchBar = () => {
@@ -9,6 +10,7 @@ const PlayerSearchBar = () => {
     const [error, setError] = useState(null); {/* State to hold any error messages */ }
     const [players, setPlayers] = useState([]); {/* State to hold the list of players returned from the API */ }
     const [selectedPlayer, setSelectedPlayer] = useState(null); {/* State to hold the selected player's details */ }
+    const navigate = useNavigate();
 
   // Backend API URL 
   const API_BASE = 'http://localhost:8080/api/v1/player';
@@ -59,7 +61,10 @@ const PlayerSearchBar = () => {
 
     // Function to handle player selection from the search results
   const handlePlayerSelect = (player) => {
-    setSelectedPlayer(player);
+    const urlPlayerName = player.playerName.replace(/\s+/g, '');  // Remove spaces
+    navigate(`/playerstats/${urlPlayerName}`, { 
+      state: { player: player } 
+    });
   };
 
   const PlayerCard = ({player, isSelected, onClick}) => (
@@ -190,29 +195,6 @@ const PlayerSearchBar = () => {
                         </div>
                     </div>
 
-                    <div className="lg:col-span-2">
-                        {selectedPlayer ? (
-                            <div className="bg-white rounded-xl shadow-lg p-6">
-                                <div className="border-b border-gray-200 pb-6 mb-6">
-                                    <div className="flex items-start justify-between">
-                                        <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                                            {selectedPlayer.playerName}
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        ) : (
-                            <div className="bg-white rounded-xl shadow-lg p-12 text-center">
-                                <FaCircleUser className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                                <h3 className="text-lg font-medium text-gray-900 mb-2">
-                                    Select a Player
-                                </h3>
-                                <p className="text-gray-600">
-                                    Click on a player from the search results to view their detailed statistics.
-                                </p>
-                            </div>
-                        )}
-                    </div>
                 </div>
                 
             )}
