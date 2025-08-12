@@ -33,7 +33,7 @@ const PlayerStats = () => {
 
                 {/*Player Header*/}
                 <div className="border-b border-gray-200 pb-6 mb-6">
-                    <div className="flex items-start justify-between">
+                    <div className="flex items-start justify-between mb-8">
                         <h2 className="text-3xl font-bold text-gray-900 mb-2">
                             {player.playerName}
                         </h2>
@@ -67,8 +67,8 @@ const PlayerStats = () => {
                     </div>
                     
 
-                    <div className="mb-8">
-                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Performance Stats</h3>
+                    <div className="mb-10">
+                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Performance Metrics</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             <StatsCard
                             icon = {FaFutbol}
@@ -87,7 +87,12 @@ const PlayerStats = () => {
                             label = "Minutes Played"
                             value = {player.minutes_played}
                             color = 'green'/>
-
+                        
+                        </div>
+                    </div>
+                        
+                    <div className="mb-10">
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                             <StatsCard
                             icon = {FaFutbol}
                             label= "Goals"
@@ -110,6 +115,76 @@ const PlayerStats = () => {
 
                         </div>
                     </div>
+
+                    <div className='mb-12'>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Yellow Cards"
+                            value = {player.yellow_cards}
+                            color = 'yellow'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Red Cards"
+                            value = {player.red_cards}
+                            color = 'red'/>
+                        </div>
+                    </div>
+
+                    <div className='mb-10'>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Expected Performance Metrics</h3>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Expected Goals (xG)"
+                            value = {player.expected_goals}
+                            color = 'green'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Expected Assists (xA)"
+                            value = {player.expected_assists}
+                            color = 'green'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Expected G+A (xGA)"
+                            value = {player.expected_g_and_a}
+                            color = 'green'/>
+                        </div>
+                    </div>
+
+                    <div className='mb-12'>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Performance Metrics per 90 mins</h3>
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Goals per Game"
+                            value = {player.goals_per_game}
+                            color = 'blue'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Assists per Game"
+                            value = {player.assists_per_game}
+                            color = 'blue'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "G+A per Game"
+                            value = {player.g_and_a_per_game}
+                            color = 'blue'/>
+
+                        </div>
+
+                    </div>
+
+
+
                 </div>
             </div>
         ) : (
