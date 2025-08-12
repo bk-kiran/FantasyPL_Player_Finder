@@ -54,6 +54,10 @@ const PlayerStats = () => {
                             <FaCalendar className="w-5 h-5 mr-2" />
                             {parseInt(player.age)} years old
                           </span>
+                         {/*<span className="flex items-center px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
+                            <FaFutbol className="w-5 h-5 mr-2" />
+                            {player.goals_assists} Goals + Assists
+                          </span>*/}
                             
                         </div>
                         <button 
@@ -68,15 +72,42 @@ const PlayerStats = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             <StatsCard
                             icon = {FaFutbol}
+                            label = "Matches Played"
+                            value = {player.matches_played}
+                            color = 'green'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Matches Started"
+                            value = {player.matches_started}
+                            color = 'green'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Minutes Played"
+                            value = {player.minutes_played}
+                            color = 'green'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
                             label= "Goals"
                             value = {player.goals}
-                            color = 'green'/>
+                            color = 'blue'/>
 
                             <StatsCard
                             icon = {FaFutbol}
                             label= "Assists"
                             value = {player.assists}
-                            color = 'green'/>
+                            color = 'blue'/>
+
+                            <StatsCard
+                            icon = {FaFutbol}
+                            label = "Goals + Assists"
+                            value = {player.goals_assists}
+                            color = 'blue'/>
+                            
+
+
                         </div>
                     </div>
                 </div>
