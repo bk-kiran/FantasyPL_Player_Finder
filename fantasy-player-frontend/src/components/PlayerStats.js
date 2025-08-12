@@ -22,6 +22,11 @@ const PlayerStats = () => {
                         className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-red-500"
                         >Back</button>
                     </div>
+                    <p>{player.teamName}</p>
+                    <p>{player.nation}</p>
+                    <p>{player.position}</p>
+                    <p>{player.goals} Goals</p>
+                    <p>{player.assists} Assists</p>
                 </div>
             </div>
         ) : (
