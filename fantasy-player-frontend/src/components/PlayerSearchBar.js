@@ -109,24 +109,6 @@ const PlayerSearchBar = () => {
     </div>
   )
 
-  const StatsCard = ({icon: Icon, label, value, color = "blue"}) => (
-    <div className={`bg-white rounded-lg border-l-4 border-${color}-500 p-4 shadow-sm hover:shadow-md transition-shadow duration-200`}>
-      <div className="flex items-center">
-        <div className={`flex-shrink-0 p-2 bg-${color}-100 rounded-lg`}>
-          <Icon className={`w-5 h-5 text-${color}-600`} />
-        </div>
-        <div className="ml-4">
-          <p className="text-sm font-medium text-gray-600">{label}</p>
-          <p className="text-xl font-semibold text-gray-900">
-            {value !== null && value !== undefined ? (
-              typeof value === 'number' ? value.toFixed(1) : value
-            ) : 'N/A'}
-          </p>
-        </div>
-      </div>
-    </div>
-  )
-
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -197,6 +179,25 @@ const PlayerSearchBar = () => {
 
                 </div>
                 
+            )}
+
+            {!searchQuery && (
+                <div className="text-center py-16">
+                    <div className="max-w-md mx-auto">
+                    <FaSearchengin className="w-20 h-20 text-purple-400 mx-auto mb-6" />
+                    <h3 className="text-2xl font-medium text-gray-900 mb-4">
+                        Start Your Search
+                    </h3>
+                    <p className="text-gray-600 text-lg">
+                        Enter a player's name in the search bar above to find their statistics and performance data.
+                    </p>
+                    <div className="mt-8 p-4 bg-red-50 rounded-lg">
+                        <p className="text-red-800 text-sm">
+                        <strong>Tip:</strong> Try searching for players like "Salah", "Kane", or "De Bruyne"
+                        </p>
+                    </div>
+                    </div>
+                </div>
             )}
         </div>
     </div>
