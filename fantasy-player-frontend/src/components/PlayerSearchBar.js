@@ -184,18 +184,18 @@ const PlayerSearchBar = () => {
             {!searchQuery && (
                 <div className="text-center py-16">
                     <div className="max-w-md mx-auto">
-                    <FaSearchengin className="w-20 h-20 text-purple-400 mx-auto mb-6" />
-                    <h3 className="text-2xl font-medium text-gray-900 mb-4">
-                        Start Your Search
-                    </h3>
-                    <p className="text-gray-600 text-lg">
-                        Enter a player's name in the search bar above to find their statistics and performance data.
-                    </p>
-                    <div className="mt-8 p-4 bg-red-50 rounded-lg">
-                        <p className="text-red-800 text-sm">
-                        <strong>Tip:</strong> Try searching for players like "Salah", "Kane", or "De Bruyne"
-                        </p>
-                    </div>
+                      <img src="/images/logo.png" alt="Example" className='w-25 h-20 mx-auto mb-6' />
+                      <h3 className="text-2xl font-medium text-gray-900 mb-4">
+                          Start Your Search
+                      </h3>
+                      <p className="text-gray-600 text-lg">
+                          Enter a player's name in the search bar above to find their statistics and performance data.
+                      </p>
+                      <div className="mt-8 p-4 bg-red-50 rounded-lg">
+                          <p className="text-red-800 text-sm">
+                          <strong>Tip:</strong> Try searching for players like "Salah", "Kane", or "De Bruyne"
+                          </p>
+                      </div>
                     </div>
                 </div>
             )}
