@@ -33,37 +33,37 @@ const PlayerStats = () => {
 
                 {/*Player Header*/}
                 <div className="border-b border-gray-200 pb-6 mb-6">
-                    <div className="flex items-start justify-between mb-8">
+                    <div className="flex items-start justify-between mb-4">
                         <h2 className="text-3xl font-bold text-gray-900 mb-2">
                             {player.playerName}
                         </h2>
-                        <div className="flex flex-wrap items-center gap-4 text-gray-600">
-                            <span className="flex items-center px-3 py-1 bg-green-100 text-grene-800 rounded-full text-sm font-mediu">
-                                <FaCircleUser className="w-5 h-5 mr-2" />
-                                Positions: {player.position}
-                            </span>
-                            <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
-                                <FaEarthEurope className="w-5 h-5 mr-2" />
-                                {player.nation}
-                            </span>
-                            <span className='flex items-center px-3 py-1 bg-red-100 text-red-800 rounded-full text-sm font-mediu'>
-                                <FaMapPin className="w-5 h-5 mr-2" />
-                                Team: {player.team_name}
-                            </span>
-                          <span className="flex items-center px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-sm font-medium">
-                            <FaCalendar className="w-5 h-5 mr-2" />
-                            {parseInt(player.age)} years old
-                          </span>
                          {/*<span className="flex items-center px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
                             <FaFutbol className="w-5 h-5 mr-2" />
                             {player.goals_assists} Goals + Assists
                           </span>*/}
-                            
-                        </div>
                         <button 
                         onClick={() => navigate('/')}
                         className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-red-500"
                         >Back</button>
+                    </div>
+
+                    <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-10">
+                        <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-mediu">
+                            <FaCircleUser className="w-5 h-5 mr-2" />
+                            Positions: {player.position}
+                        </span>
+                        <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium">
+                            <FaEarthEurope className="w-5 h-5 mr-2" />
+                            {player.nation}
+                        </span>
+                        <span className='flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-mediu'>
+                            <FaMapPin className="w-5 h-5 mr-2 " />
+                            Team: {player.team_name}
+                        </span>
+                        <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium">
+                            <FaCalendar className="w-5 h-5 mr-2" />
+                            {parseInt(player.age)} years old
+                        </span>
                     </div>
                     
 
@@ -163,24 +163,41 @@ const PlayerStats = () => {
 
                             <StatsCard
                             icon = {FaFutbol}
-                            label = "Goals per Game"
+                            label = "Goals per 90 mins"
                             value = {player.goals_per_game}
                             color = 'blue'/>
 
                             <StatsCard
                             icon = {FaFutbol}
-                            label = "Assists per Game"
+                            label = "Assists per 90 mins"
                             value = {player.assists_per_game}
                             color = 'blue'/>
 
                             <StatsCard
                             icon = {FaFutbol}
-                            label = "G+A per Game"
+                            label = "G+A per 90 mins"
                             value = {player.g_and_a_per_game}
                             color = 'blue'/>
 
                         </div>
 
+                    </div>
+
+                    <div className='mb-12'>
+                        <h3 className="text-xl font-semibold text-gray-900 mb-4">Expected Performance Metrics per 90 mins</h3>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <StatsCard
+                            icon={FaFutbol}
+                            label="xG per 90 mins"
+                            value = {player.expected_goals_per_game}
+                            color = 'red'/>
+
+                            <StatsCard
+                            icon={FaFutbol}
+                            label="xA per 90 mins"
+                            value = {player.expected_assists_per_game}
+                            color = 'red'/>
+                        </div>
                     </div>
 
 

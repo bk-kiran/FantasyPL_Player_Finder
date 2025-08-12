@@ -193,7 +193,7 @@ const PlayerSearchBar = () => {
                       </p>
                       <div className="mt-8 p-4 bg-red-50 rounded-lg">
                           <p className="text-red-800 text-sm">
-                          <strong>Tip:</strong> Try searching for players like "Salah", "Kane", or "De Bruyne"
+                          <strong>Tip:</strong> Try searching for players like "Salah", "Cole Palmer", or "De Bruyne"
                           </p>
                       </div>
                     </div>
