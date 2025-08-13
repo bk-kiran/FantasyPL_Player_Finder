@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { FaX, FaCircleUser, FaEarthEurope, FaMapPin, FaFutbol, FaCalendar, FaArrowLeft} from "react-icons/fa6";
+import { getFullPositionName } from '../utils/playerUtils';
 
 const PlayerStats = () => {
     const location = useLocation();
@@ -133,7 +134,7 @@ const PlayerStats = () => {
                     <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-12">
                         <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-mediu">
                             <FaCircleUser className="w-5 h-5 mr-2" />
-                            Positions: {player.position}
+                            Positions: {getFullPositionName(player.position)}
                         </span>
                         <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium">
                             <FaEarthEurope className="w-5 h-5 mr-2" />

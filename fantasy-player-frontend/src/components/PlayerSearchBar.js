@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { FaEarthEurope, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaSearchengin } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
+import { getFullPositionName } from '../utils/playerUtils';
 
 
 const PlayerSearchBar = () => {
@@ -42,11 +43,14 @@ const PlayerSearchBar = () => {
       }
       
       const data = await response.json();
-      setPlayers(data);
+      const sortedData = data.sort((a, b) => {
+        return b.playerName - a.playerName; // Sort by name in descending order
+      })
+      setPlayers(sortedData);
       
       // If only one player found, auto-select them
-      if (data.length === 1) {
-        setSelectedPlayer(data[0]);
+      if (sortedData.length === 1) {
+        setSelectedPlayer(sortedData[0]);
       } else {
         setSelectedPlayer(null);
       }
@@ -82,7 +86,7 @@ const PlayerSearchBar = () => {
           <div className="flex items-center mt-1 space-x-4 text-sm text-gray-600">
             <span className="flex items-center">
               <FaCircleUser className="w-4 h-4 mr-1" />
-              {player.position}
+              {getFullPositionName(player.position)}
             </span>
             <span className="flex items-center">
               <FaEarthEurope className="w-4 h-4 mr-1" />

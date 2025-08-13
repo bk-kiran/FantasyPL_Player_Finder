@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { FaEarthEurope, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaArrowLeft, FaUsers } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
+import { getFullPositionName } from '../utils/playerUtils';
 
 const Teams = () => {
     const [teams, setTeams] = useState([]);
@@ -53,7 +54,10 @@ const Teams = () => {
             }
             
             const data = await response.json();
-            setTeamPlayers(data);
+            const sortedData = data.sort((a, b) => {
+                return b.matches_played - a.matches_played;
+            })
+            setTeamPlayers(sortedData);
             setSelectedTeam(teamName);
         } catch (err) {
             setError('Failed to load team data. Please try again.');
@@ -85,7 +89,7 @@ const Teams = () => {
               <div className="flex items-center mt-1 space-x-4 text-sm text-gray-600">
                 <span className="flex items-center">
                   <FaCircleUser className="w-4 h-4 mr-1" />
-                  {player.position}
+                  {getFullPositionName(player.position)}
                 </span>
                 <span className="flex items-center">
                   <FaEarthEurope className="w-4 h-4 mr-1" />
