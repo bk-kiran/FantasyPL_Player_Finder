@@ -1,12 +1,56 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { FaCircleUser, FaEarthEurope, FaMapPin, FaFutbol, FaCalendar} from "react-icons/fa6";
 
 const PlayerStats = () => {
     const location = useLocation();
-    const { player } = location.state || {};
     const { playerName } = useParams();
     const navigate = useNavigate();
+
+    const [player, setPlayer] = useState(location.state?.player || null);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
+
+    const API_BASE = 'http://localhost:8080/api/v1/player';
+
+    useEffect(() => { // if no player fetched from state, fetch player details from API
+        if (!player && playerName) {
+            fetchPlayerData(playerName);
+        }
+    }, [player, playerName])
+
+    const fetchPlayerData = async (urlPlayerName) => {
+        try {
+            setLoading(true);
+            setError(null);
+            
+            // Convert URL format back to searchable format
+            const searchName = urlPlayerName.replace(/([a-z])([A-Z])/g, '$1 $2');
+            
+            const response = await fetch(`${API_BASE}?playerName=${encodeURIComponent(searchName)}`);
+            
+            if (!response.ok) {
+                throw new Error('Failed to fetch player data');
+            }
+            
+            const data = await response.json();
+            
+            if (data.length > 0) {
+                // Find exact match or take first result
+                const exactMatch = data.find(p => 
+                    p.playerName.replace(/\s+/g, '').toLowerCase() === urlPlayerName.toLowerCase()
+                );
+                setPlayer(exactMatch || data[0]);
+            } else {
+                setError(`No player found with name: ${searchName}`);
+            }
+        } catch (err) {
+            setError('Failed to load player data. Please try again.');
+        } finally {
+            setLoading(false);
+        }
+    };
+
 
     const StatsCard = ({icon: Icon, label, value, color = "blue"}) => (
         <div className={`bg-white rounded-lg border-l-4 border-${color}-500 p-4 shadow-sm hover:shadow-md transition-shadow duration-200`}>
@@ -47,7 +91,7 @@ const PlayerStats = () => {
                         >Back</button>
                     </div>
 
-                    <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-10">
+                    <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-12">
                         <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-mediu">
                             <FaCircleUser className="w-5 h-5 mr-2" />
                             Positions: {player.position}
