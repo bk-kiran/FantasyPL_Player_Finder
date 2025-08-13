@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import { FaX, FaCircleUser, FaEarthEurope, FaMapPin, FaFutbol, FaCalendar} from "react-icons/fa6";
+import { FaX, FaCircleUser, FaEarthEurope, FaMapPin, FaFutbol, FaCalendar, FaArrowLeft} from "react-icons/fa6";
 
 const PlayerStats = () => {
     const location = useLocation();
@@ -110,18 +110,24 @@ const PlayerStats = () => {
 
                 {/*Player Header*/}
                 <div className="border-b border-gray-200 pb-6 mb-6">
-                    <div className="flex items-start justify-between mb-4">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-2">
-                            {player.playerName}
-                        </h2>
+                    <div className="flex items-start justify-between mb-2">
+                        <button 
+                            onClick={() => {navigate('/')}}
+                            className="flex items-center text-blue-600 hover:text-blue-800 mb-4"
+                            >
+                            <FaArrowLeft className="w-4 h-4 mr-2" />
+                            Back to Search
+                        </button>
                          {/*<span className="flex items-center px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
                             <FaFutbol className="w-5 h-5 mr-2" />
                             {player.goals_assists} Goals + Assists
                           </span>*/}
-                        <button 
-                        onClick={() => navigate(-1)}
-                        className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-red-500"
-                        >Back</button>
+                    </div>
+
+                    <div className="flex items-start justify-between mb-4">
+                         <h2 className="text-3xl font-bold text-gray-900 mb-2">
+                            {player.playerName}
+                        </h2>
                     </div>
 
                     <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-12">
