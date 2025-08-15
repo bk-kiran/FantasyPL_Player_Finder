@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import { FaX, FaCircleUser, FaEarthEurope, FaMapPin, FaFutbol, FaCalendar, FaArrowLeft} from "react-icons/fa6";
+import { FaX, FaCircleUser, FaEarthEurope, FaMapPin, FaFutbol, FaCalendar, FaCalendarCheck, FaCircleExclamation, FaClock, FaRankingStar, FaArrowLeft, FaBullseye} from "react-icons/fa6";
 import { getFullPositionName } from '../utils/playerUtils';
 
 const PlayerStats = () => {
@@ -113,11 +113,11 @@ const PlayerStats = () => {
                 <div className="border-b border-gray-200 pb-6 mb-6">
                     <div className="flex items-start justify-between mb-2">
                         <button 
-                            onClick={() => {navigate('/')}}
+                            onClick={() => {navigate(-1)}}
                             className="flex items-center text-blue-600 hover:text-blue-800 mb-4"
                             >
                             <FaArrowLeft className="w-4 h-4 mr-2" />
-                            Back to Search
+                            Back
                         </button>
                          {/*<span className="flex items-center px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
                             <FaFutbol className="w-5 h-5 mr-2" />
@@ -155,19 +155,19 @@ const PlayerStats = () => {
                         <h3 className="text-xl font-semibold text-gray-900 mb-4">Performance Metrics</h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaCalendar}
                             label = "Matches Played"
                             value = {player.matches_played}
                             color = 'green'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaCalendarCheck}
                             label = "Matches Started"
                             value = {player.matches_started}
                             color = 'green'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaClock}
                             label = "Minutes Played"
                             value = {player.minutes_played}
                             color = 'green'/>
@@ -184,13 +184,13 @@ const PlayerStats = () => {
                             color = 'blue'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaBullseye}
                             label= "Assists"
                             value = {player.assists}
                             color = 'blue'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaRankingStar}
                             label = "Goals + Assists"
                             value = {player.goals_assists}
                             color = 'blue'/>
@@ -204,13 +204,13 @@ const PlayerStats = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaCircleExclamation}
                             label = "Yellow Cards"
                             value = {player.yellow_cards}
                             color = 'yellow'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaCircleExclamation}
                             label = "Red Cards"
                             value = {player.red_cards}
                             color = 'red'/>
@@ -228,13 +228,13 @@ const PlayerStats = () => {
                             color = 'green'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaBullseye}
                             label = "Expected Assists (xA)"
                             value = {player.expected_assists}
                             color = 'green'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaRankingStar}
                             label = "Expected G+A (xGA)"
                             value = {player.expected_g_and_a}
                             color = 'green'/>
@@ -252,13 +252,13 @@ const PlayerStats = () => {
                             color = 'blue'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaBullseye}
                             label = "Assists per 90 mins"
                             value = {player.assists_per_game}
                             color = 'blue'/>
 
                             <StatsCard
-                            icon = {FaFutbol}
+                            icon = {FaRankingStar}
                             label = "G+A per 90 mins"
                             value = {player.g_and_a_per_game}
                             color = 'blue'/>
@@ -277,7 +277,7 @@ const PlayerStats = () => {
                             color = 'red'/>
 
                             <StatsCard
-                            icon={FaFutbol}
+                            icon={FaBullseye}
                             label="xA per 90 mins"
                             value = {player.expected_assists_per_game}
                             color = 'red'/>
