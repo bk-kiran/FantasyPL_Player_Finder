@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { FaEarthEurope, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaSearchengin } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import { getFullPositionName } from '../utils/playerUtils';
+import Navbar from './Navabar';
 
 
 const PlayerSearchBar = () => {
@@ -115,96 +116,99 @@ const PlayerSearchBar = () => {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-        <div className="container mx-auto px-4 py-8 max-w-6xl">
-            
-            {/* Header */}
-            <div className="text-center mb-8">
-                <h1 className="text-4xl font-bold text-gray-900 mb-2">
-                    Fantasy Premier League Player Finder
-                </h1>
-                <p className='text-gray-600 text-lg'>
-                    Search and explore players from the Fantasy Premier League database (2024/2025 stats).
-                </p>
-            </div>
+    <main>
+      <Navbar/>
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+          <div className="container mx-auto px-4 py-8 max-w-6xl">
+              
+              {/* Header */}
+              <div className="text-center mb-8">
+                  <h1 className="text-4xl font-bold text-gray-900 mb-2">
+                      Fantasy Premier League Player Finder
+                  </h1>
+                  <p className='text-gray-600 text-lg'>
+                      Search and explore players from the Fantasy Premier League database (2024/2025 stats).
+                  </p>
+              </div>
 
-            {/* Search Bar */}
-            <div className='relative mb-8'>
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <FaSearchengin className="h-5 w-5 text-gray-400" />
-                </div>
-                <div className='flex items-center space-x-2'>
-                    <input
-                    className="block w-full pl-10 pr-3 py-4 text-lg border border-gray-300 rounded-xl leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 shadow-sm transition-all duration-200"
-                    type="text"
-                    value = {searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Enter player name (e.g., 'Mohamed Salah' or 'Erling Haaland')"
-                    />
+              {/* Search Bar */}
+              <div className='relative mb-8'>
+                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <FaSearchengin className="h-5 w-5 text-gray-400" />
+                  </div>
+                  <div className='flex items-center space-x-2'>
+                      <input
+                      className="block w-full pl-10 pr-3 py-4 text-lg border border-gray-300 rounded-xl leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 shadow-sm transition-all duration-200"
+                      type="text"
+                      value = {searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      placeholder="Enter player name (e.g., 'Mohamed Salah' or 'Erling Haaland')"
+                      />
 
-                </div>
+                  </div>
 
-                {loading && (
-                    <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
-                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
-                    </div>
-                )}
-            </div>
-
-            {/* Error Result */}
-            {error && (
-                <div className="max-w-xl mx-auto mb-6">
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
-                        <FaTriangleExclamation className="w-5 h-5 text-red-600 mr-3 flex-shrink-0"/>
-                        <p className="text-red-700">{error}</p>
-                    </div>
-                </div>
-            )}
-
-            {/* Search Results */}
-            {players.length > 0 && (
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    <div className="lg:col-span-3">
-                        <h2 className="text-xl font-semibold text-gray-900 mb-4">
-                            Search Results ({players.length})
-                        </h2>
-                        <div className="space-y-3">
-                            {players.map((player, index) => (
-                            <PlayerCard
-                                key={`${player.playerName}-${player.team_name}-${index}`} //random unique key
-                                player={player}
-                                isSelected={selectedPlayer?.playerName === player.playerName}
-                                onClick={
-                                    handlePlayerSelect}
-                            />
-                            ))}
-                        </div>
-                    </div>
-
-                </div>
-                
-            )}
-
-            {!searchQuery && (
-                <div className="text-center py-16">
-                    <div className="max-w-md mx-auto">
-                      <img src="/images/logo.png" alt="Example" className='w-25 h-20 mx-auto mb-6' />
-                      <h3 className="text-2xl font-medium text-gray-900 mb-4">
-                          Start Your Search
-                      </h3>
-                      <p className="text-gray-600 text-lg">
-                          Enter a player's name in the search bar above to find their statistics and performance data.
-                      </p>
-                      <div className="mt-8 p-4 bg-red-50 rounded-lg">
-                          <p className="text-red-800 text-sm">
-                          <strong>Tip:</strong> Try searching for players like "Salah", "Cole Palmer", or "De Bruyne"
-                          </p>
+                  {loading && (
+                      <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+                          <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
                       </div>
-                    </div>
-                </div>
-            )}
-        </div>
-    </div>
+                  )}
+              </div>
+
+              {/* Error Result */}
+              {error && (
+                  <div className="max-w-xl mx-auto mb-6">
+                      <div className="bg-red-50 border border-red-200 rounded-lg p-4 flex items-center">
+                          <FaTriangleExclamation className="w-5 h-5 text-red-600 mr-3 flex-shrink-0"/>
+                          <p className="text-red-700">{error}</p>
+                      </div>
+                  </div>
+              )}
+
+              {/* Search Results */}
+              {players.length > 0 && (
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                      <div className="lg:col-span-3">
+                          <h2 className="text-xl font-semibold text-gray-900 mb-4">
+                              Search Results ({players.length})
+                          </h2>
+                          <div className="space-y-3">
+                              {players.map((player, index) => (
+                              <PlayerCard
+                                  key={`${player.playerName}-${player.team_name}-${index}`} //random unique key
+                                  player={player}
+                                  isSelected={selectedPlayer?.playerName === player.playerName}
+                                  onClick={
+                                      handlePlayerSelect}
+                              />
+                              ))}
+                          </div>
+                      </div>
+
+                  </div>
+                  
+              )}
+
+              {!searchQuery && (
+                  <div className="text-center py-16">
+                      <div className="max-w-md mx-auto">
+                        <img src="/images/logo.png" alt="Example" className='w-25 h-20 mx-auto mb-6' />
+                        <h3 className="text-2xl font-medium text-gray-900 mb-4">
+                            Start Your Search
+                        </h3>
+                        <p className="text-gray-600 text-lg">
+                            Enter a player's name in the search bar above to find their statistics and performance data.
+                        </p>
+                        <div className="mt-8 p-4 bg-red-50 rounded-lg">
+                            <p className="text-red-800 text-sm">
+                            <strong>Tip:</strong> Try searching for players like "Salah", "Cole Palmer", or "De Bruyne"
+                            </p>
+                        </div>
+                      </div>
+                  </div>
+              )}
+          </div>
+      </div>
+    </main>
   )}
   
 

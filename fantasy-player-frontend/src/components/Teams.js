@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { FaEarthEurope, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaArrowLeft, FaUsers } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import { getFullPositionName } from '../utils/playerUtils';
+import Navbar from './Navabar';
 
 const Teams = () => {
     const [teams, setTeams] = useState([]);
@@ -180,41 +181,45 @@ const Teams = () => {
     }
     
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-      <div className="container mx-auto px-4 py-8 max-w-6xl">
-        <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Premier League Teams
-          </h1>
-          <p className="text-gray-600 text-lg">
-            Browse 24/25 player stars by their Premier League teams.
-          </p>
-        </div>
+    <main>
+        <Navbar/>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-          {teams.map((team, index) => (
-            <div
-              key={index}
-              //onClick={}
-              className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer transform hover:scale-105 p-6"
-            >
-              <div className="text-center" onClick={() => fetchTeamPlayers(team.name, team.id)}>
-                <div className="mx-auto mb-4 flex items-center justify-center">
-                  <img 
-                    src={team.logo} 
-                    alt={`${team.name} logo`}
-                    className="w-16 h-16 object-contain"
-                  />
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+            <div className="container mx-auto px-4 py-8 max-w-6xl">
+                <div className="text-center mb-8">
+                <h1 className="text-4xl font-bold text-gray-900 mb-2">
+                    Premier League Teams
+                </h1>
+                <p className="text-gray-600 text-lg">
+                    Browse 24/25 player stars by their Premier League teams.
+                </p>
                 </div>
-                <h3 className="font-semibold text-gray-900 text-sm">
-                  {team.name}
-                </h3>
-              </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                {teams.map((team, index) => (
+                    <div
+                    key={index}
+                    //onClick={}
+                    className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer transform hover:scale-105 p-6"
+                    >
+                    <div className="text-center" onClick={() => fetchTeamPlayers(team.name, team.id)}>
+                        <div className="mx-auto mb-4 flex items-center justify-center">
+                        <img 
+                            src={team.logo} 
+                            alt={`${team.name} logo`}
+                            className="w-16 h-16 object-contain"
+                        />
+                        </div>
+                        <h3 className="font-semibold text-gray-900 text-sm">
+                        {team.name}
+                        </h3>
+                    </div>
+                    </div>
+                ))}
+                </div>
             </div>
-          ))}
         </div>
-      </div>
-    </div>
+    </main>
   );
 };
 export default Teams
