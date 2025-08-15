@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { FaEarthEurope, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaArrowLeft, FaUsers } from "react-icons/fa6";
+import { FaEarthEurope, FaCalendar, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaArrowLeft, FaUsers } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import { getFullPositionName } from '../utils/playerUtils';
 import Navbar from './Navbar';
@@ -99,6 +99,10 @@ const Teams = () => {
                 <span className="flex items-center">
                   <FaMapPin className="w-4 h-4 mr-1" />
                   {player.team_name}
+                </span>
+                <span className="flex items-center">
+                    <FaCalendar className="w-4 h-4 mr-1" />
+                    {player.league_last_season} 24/25
                 </span>
                 <span className="flex items-center">
                   <FaFutbol className="w-4 h-4 mr-1" />

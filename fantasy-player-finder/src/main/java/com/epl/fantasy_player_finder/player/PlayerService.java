@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -34,8 +35,11 @@ public class PlayerService {
     }
 
     public List<Player> getPlayersByPosition(String searchText) {
-        return playerRepository.findAll().stream().filter(player -> player.getPosition()
-                .toLowerCase().contains(searchText.toLowerCase())).collect(Collectors.toList());
+        List<String> allowedPositions = Arrays.asList(searchText.split("\\|"));
+
+        return playerRepository.findAll().stream()
+                .filter(player -> allowedPositions.contains(player.getPosition()))
+                .collect(Collectors.toList());
     }
 
     public List<Player> getPlayersByNation(String searchText) {

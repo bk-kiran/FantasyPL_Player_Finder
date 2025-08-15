@@ -2,7 +2,8 @@
 const POSITION_MAPPING = {
   'GK': 'Goalkeeper',
   'DF': 'Defender',
-  'DF,FW': 'Defender, Forward',
+  'FW,DF': 'Wingback',
+  'DF,FW': 'Wingback',
   'DF,MF': 'Defender, Midfielder',
   'MF,DF': 'Midfielder, Defender',
   'MF': 'Midfielder',

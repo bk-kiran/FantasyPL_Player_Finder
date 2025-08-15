@@ -119,10 +119,6 @@ const PlayerStats = () => {
                             <FaArrowLeft className="w-4 h-4 mr-2" />
                             Back
                         </button>
-                         {/*<span className="flex items-center px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
-                            <FaFutbol className="w-5 h-5 mr-2" />
-                            {player.goals_assists} Goals + Assists
-                          </span>*/}
                     </div>
 
                     <div className="flex items-start justify-between mb-4">
@@ -145,7 +141,11 @@ const PlayerStats = () => {
                             Team: {player.team_name}
                         </span>
                         <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium">
-                            <FaCalendar className="w-5 h-5 mr-2" />
+                            <FaCalendar className="w-4 h-4 mr-1" />
+                            {player.league_last_season} 24/25
+                        </span>
+                        <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium">
+                            <FaClock className="w-5 h-5 mr-2" />
                             {parseInt(player.age)} years old
                         </span>
                     </div>
