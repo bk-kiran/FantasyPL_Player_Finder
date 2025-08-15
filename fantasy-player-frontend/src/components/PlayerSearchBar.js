@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { FaEarthEurope, FaFutbol, FaMapPin, FaCircleUser, FaTriangleExclamation, FaSearchengin } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import { getFullPositionName } from '../utils/playerUtils';
-import Navbar from './Navabar';
+import Navbar from './Navbar';
 
 
 const PlayerSearchBar = () => {
