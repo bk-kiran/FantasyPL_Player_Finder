@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
-import { FaX, FaCircleUser, FaEarthEurope, FaMapPin, FaFutbol, FaCalendar, FaCalendarCheck, FaCircleExclamation, FaClock, FaRankingStar, FaArrowLeft, FaBullseye} from "react-icons/fa6";
+import { FaX, FaCircleUser, FaEarthEurope, FaMapPin, FaCalendarDays, FaFutbol, FaCalendar, FaCalendarCheck, FaCircleExclamation, FaClock, FaRankingStar, FaArrowLeft, FaBullseye} from "react-icons/fa6";
 import { getFullPositionName } from '../utils/playerUtils';
 
 const PlayerStats = () => {
@@ -141,11 +141,11 @@ const PlayerStats = () => {
                             Team: {player.team_name}
                         </span>
                         <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium">
-                            <FaCalendar className="w-4 h-4 mr-1" />
+                            <FaCalendar className="w-5 h-5 mr-2" />
                             {player.league_last_season} 24/25
                         </span>
                         <span className="flex items-center px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium">
-                            <FaClock className="w-5 h-5 mr-2" />
+                            <FaCalendarDays  className="w-5 h-5 mr-2" />
                             {parseInt(player.age)} years old
                         </span>
                     </div>

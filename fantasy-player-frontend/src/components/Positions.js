@@ -38,18 +38,18 @@ const Positions = () => {
 
             // Map ALL possible position values that should appear in each category
             const positionMap = {
-                'GK': ['GK'],                                // Goalkeeper
-                'DF': ['DF', 'MF,DF', 'DF,MF'],            // Defender + players who also play MF
-                'FW,DF': ['FW,DF','DF,FW'],               // Wingback
-                'MF': ['MF', 'MF,DF', 'DF,MF'],            // Midfielder + players who also play DF (but NOT MF,FW)
-                'FW': ['FW'],                               // Pure Attacker only
-                'MF,FW': ['MF,FW'],               // Attacking Midfielder
-                'FW,MF': ['FW,MF']               // Winger (same as attacking midfielder)
+                'GK': ['GK'],                                
+                'DF': ['DF', 'MF,DF', 'DF,MF'],           
+                'FW,DF': ['FW,DF','DF,FW'],               
+                'MF': ['MF', 'MF,DF', 'DF,MF'],            
+                'FW': ['FW'],                               
+                'MF,FW': ['MF,FW'],              
+                'FW,MF': ['FW,MF']               
             };
 
             // Get the matching array from the map
             const positionsToFetch = positionMap[posID] || [posID];
-            console.log('Positions to fetch:', positionsToFetch);
+
 
             // Send as pipe-separated string for backend
             const queryParam = positionsToFetch.join('|');
