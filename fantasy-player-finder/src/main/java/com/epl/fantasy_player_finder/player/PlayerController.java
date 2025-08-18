@@ -101,6 +101,23 @@ public class PlayerController {
         return playerService.getPlayerStats();
     }
 
+    @GetMapping("/distinct/nations")
+    public ResponseEntity<List<String>> getDistinctNations() {
+        List<String> nations = playerService.getDistinctNations();
+        return ResponseEntity.ok(nations);
+    }
+
+    @GetMapping("/distinct/teams")
+    public ResponseEntity<List<String>> getDistinctTeams() {
+        List<String> teams = playerService.getDistinctTeamNames();
+        return ResponseEntity.ok(teams);
+    }
+
+    @GetMapping("/distinct/positions")
+    public ResponseEntity<List<String>> getDistinctPositions() {
+        List<String> positions = playerService.getDistinctPositions();
+        return ResponseEntity.ok(positions);
+    }
 
 
 

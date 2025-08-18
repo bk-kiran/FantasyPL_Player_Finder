@@ -13,6 +13,9 @@ const Navbar = () => {
         <Link to="/positions" className='flex items-center mr-4 px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium'>
             View Positions
         </Link>
+        <Link to="/filter" className='flex items-center mr-4 px-3 py-1 bg-blue-100 text-blue-900 rounded-full text-sm font-medium'>
+            Player Filter
+        </Link>
     </nav>
   )
 }

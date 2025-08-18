@@ -61,4 +61,13 @@ public interface PlayerRepository extends JpaRepository<Player, String>, JpaSpec
     @Query("SELECT DISTINCT p.nation FROM Player p WHERE p.nation IS NOT NULL ORDER BY p.nation")
     List<String> findAllNations();
 
+    @Query("SELECT DISTINCT p.nation FROM Player p WHERE p.nation IS NOT NULL ORDER BY p.nation")
+    List<String> findDistinctNations();
+
+    @Query("SELECT DISTINCT p.team_name FROM Player p WHERE p.team_name IS NOT NULL ORDER BY p.team_name")
+    List<String> findDistinctTeamNames();
+
+    @Query("SELECT DISTINCT p.position FROM Player p WHERE p.position IS NOT NULL ORDER BY p.position")
+    List<String> findDistinctPositions();
+
 }

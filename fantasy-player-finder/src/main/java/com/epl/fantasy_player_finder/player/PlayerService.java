@@ -186,4 +186,16 @@ public class PlayerService {
         public int getMaxMatchesStarted() { return maxMatchesStarted; }
     }
 
+    public List<String> getDistinctNations() {
+        return playerRepository.findDistinctNations();
+    }
+
+    public List<String> getDistinctTeamNames() {
+        return playerRepository.findDistinctTeamNames();
+    }
+
+    public List<String> getDistinctPositions() {
+        return playerRepository.findDistinctPositions();
+    }
+
 }
