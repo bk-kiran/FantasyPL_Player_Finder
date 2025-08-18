@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FaFilter, FaEarthEurope, FaFutbol, FaMapPin, FaCalendar, FaCircleUser, FaTriangleExclamation, FaBullseye, FaRankingStar, FaUsers, FaSliders } from "react-icons/fa6";
+import { FaFilter, FaEarthEurope, FaFutbol, FaMapPin, FaCalendar, FaCircleUser, FaCalendarCheck, FaTriangleExclamation, FaBullseye, FaRankingStar, FaUsers, FaSliders, FaClock } from "react-icons/fa6";
 import { getFullPositionName } from '../utils/playerUtils';
 
 const PlayerFilter = () => {
@@ -40,13 +40,13 @@ const PlayerFilter = () => {
         { value: 'GK', label: 'Goalkeeper' },
         { value: 'DF', label: 'Defender' },
         { value: 'MF', label: 'Midfielder' },
+        { value: 'MF,FW', label: 'Attacking Midfielder' },
+        { value: 'FW,MF', label: 'Winger' },
         { value: 'FW', label: 'Attacker' },
         { value: 'FW,DF', label: 'Wingback' },
         { value: 'DF,FW', label: 'Wingback' },
         { value: 'DF,MF', label: 'Defender, Midfielder' },
-        { value: 'MF,DF', label: 'Midfielder, Defender' },
-        { value: 'FW,MF', label: 'Winger' },
-        { value: 'MF,FW', label: 'Attacking Midfielder' }
+        { value: 'MF,DF', label: 'Midfielder, Defender' }
     ];
 
     useEffect(() => {
@@ -57,7 +57,7 @@ const PlayerFilter = () => {
                 const nationsResponse = await fetch(`${API_BASE}/distinct/nations`);
                 if (nationsResponse.ok) {
                     const nationsData = await nationsResponse.json();
-                    setNationOptions(nationsData.sort()); // Sort alphabetically
+                    setNationOptions(nationsData.sort()); 
                 } else {
                     console.error('Failed to fetch nations:', nationsResponse.status);
                 }
@@ -65,7 +65,7 @@ const PlayerFilter = () => {
                 const teamsResponse = await fetch(`${API_BASE}/distinct/teams`);
                 if (teamsResponse.ok) {
                     const teamsData = await teamsResponse.json();
-                    setTeamOptions(teamsData.sort()); // Sort alphabetically
+                    setTeamOptions(teamsData.sort()); 
                 } else {
                     console.error('Failed to fetch teams:', teamsResponse.status);
                 }
@@ -119,15 +119,13 @@ const PlayerFilter = () => {
         return params.toString();
     };
 
-// Replace the searchPlayers function with this version that uses POST
-
     const searchPlayers = async () => {
         try {
             setLoading(true);
             setError(null);
             setHasSearched(true);
             
-            // Build filter object instead of URL parameters
+            
             const filterData = {};
             
             Object.entries(filters).forEach(([key, value]) => {
@@ -140,7 +138,7 @@ const PlayerFilter = () => {
                 }
             });
             
-            console.log('Filter data:', filterData); // Debug log
+            console.log('Filter data:', filterData); 
             
             const response = await fetch(`${API_BASE}/filter`, {
                 method: 'POST',
@@ -275,7 +273,7 @@ const PlayerFilter = () => {
 
     const RangeInput = ({ label, minValue, maxValue, onMinChange, onMaxChange, icon: Icon, step = "1" }) => (
         <div className="space-y-2">
-            <label className="flex items-center text-sm font-medium text-gray-700">
+            <label className="flex items-center text-sm font-medium text-gray-700 mt-6 mb-2">
                 <Icon className="w-4 h-4 mr-2" />
                 {label}
             </label>
@@ -312,7 +310,7 @@ const PlayerFilter = () => {
                             Advanced Player Filter
                         </h1>
                         <p className="text-gray-600 text-lg">
-                            Find players that match your specific criteria using advanced filters.
+                            Find players that match your exact criteria.
                         </p>
                     </div>
 
@@ -335,93 +333,95 @@ const PlayerFilter = () => {
                                 <p className="text-gray-600">Loading filter options...</p>
                             </div>
                         ) : (
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                                
-                                {/* Multi-select dropdowns */}
-                                <MultiSelectDropdown
-                                    label="Nations"
-                                    options={nationOptions}
-                                    selectedValues={filters.nations}
-                                    onChange={(value) => handleMultiSelectChange('nations', value)}
-                                    icon={FaEarthEurope}
-                                />
+                            <div>
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-4">
+                                    
+                                    {/* Multi-select dropdowns */}
+                                    <MultiSelectDropdown
+                                        label="Nations"
+                                        options={nationOptions}
+                                        selectedValues={filters.nations}
+                                        onChange={(value) => handleMultiSelectChange('nations', value)}
+                                        icon={FaEarthEurope}
+                                    />
 
-                                <MultiSelectDropdown
-                                    label="Teams"
-                                    options={teamOptions}
-                                    selectedValues={filters.teamNames}
-                                    onChange={(value) => handleMultiSelectChange('teamNames', value)}
-                                    icon={FaMapPin}
-                                />
+                                    <MultiSelectDropdown
+                                        label="Teams"
+                                        options={teamOptions}
+                                        selectedValues={filters.teamNames}
+                                        onChange={(value) => handleMultiSelectChange('teamNames', value)}
+                                        icon={FaMapPin}
+                                    />
 
-                                <MultiSelectDropdown
-                                    label="Positions"
-                                    options={positionOptions}
-                                    selectedValues={filters.positions}
-                                    onChange={(value) => handleMultiSelectChange('positions', value)}
-                                    icon={FaCircleUser}
-                                />
+                                    <MultiSelectDropdown
+                                        label="Positions"
+                                        options={positionOptions}
+                                        selectedValues={filters.positions}
+                                        onChange={(value) => handleMultiSelectChange('positions', value)}
+                                        icon={FaCircleUser}
+                                    />
+                                </div>
 
-                                {/* Range inputs */}
-                                <RangeInput
-                                    label="Age Range"
-                                    minValue={filters.minAge}
-                                    maxValue={filters.maxAge}
-                                    onMinChange={(value) => handleFilterChange('minAge', value)}
-                                    onMaxChange={(value) => handleFilterChange('maxAge', value)}
-                                    icon={FaCalendar}
-                                />
+                                <div className="gap-6">
 
-                                <RangeInput
-                                    label="Goals Range"
-                                    minValue={filters.minGoals}
-                                    maxValue={filters.maxGoals}
-                                    onMinChange={(value) => handleFilterChange('minGoals', value)}
-                                    onMaxChange={(value) => handleFilterChange('maxGoals', value)}
-                                    icon={FaFutbol}
-                                    step="0.1"
-                                />
+                                    {/* Range inputs */}
+                                    <RangeInput
+                                        label="Age Range"
+                                        minValue={filters.minAge}
+                                        maxValue={filters.maxAge}
+                                        onMinChange={(value) => handleFilterChange('minAge', value)}
+                                        onMaxChange={(value) => handleFilterChange('maxAge', value)}
+                                        icon={FaClock}
+                                        className="mt-4 mb-4"
+                                    />
 
-                                <RangeInput
-                                    label="Assists Range"
-                                    minValue={filters.minAssists}
-                                    maxValue={filters.maxAssists}
-                                    onMinChange={(value) => handleFilterChange('minAssists', value)}
-                                    onMaxChange={(value) => handleFilterChange('maxAssists', value)}
-                                    icon={FaBullseye}
-                                    step="0.1"
-                                />
+                                    <RangeInput
+                                        label="Goals Range"
+                                        minValue={filters.minGoals}
+                                        maxValue={filters.maxGoals}
+                                        onMinChange={(value) => handleFilterChange('minGoals', value)}
+                                        onMaxChange={(value) => handleFilterChange('maxGoals', value)}
+                                        icon={FaFutbol}
+                                    />
 
-                                <RangeInput
-                                    label="Goals + Assists Range"
-                                    minValue={filters.minGoalsAndAssists}
-                                    maxValue={filters.maxGoalsAndAssists}
-                                    onMinChange={(value) => handleFilterChange('minGoalsAndAssists', value)}
-                                    onMaxChange={(value) => handleFilterChange('maxGoalsAndAssists', value)}
-                                    icon={FaRankingStar}
-                                    step="0.1"
-                                />
+                                    <RangeInput
+                                        label="Assists Range"
+                                        minValue={filters.minAssists}
+                                        maxValue={filters.maxAssists}
+                                        onMinChange={(value) => handleFilterChange('minAssists', value)}
+                                        onMaxChange={(value) => handleFilterChange('maxAssists', value)}
+                                        icon={FaBullseye}
+                                    />
 
-                                <RangeInput
-                                    label="Matches Started Range"
-                                    minValue={filters.minMatchesStarted}
-                                    maxValue={filters.maxMatchesStarted}
-                                    onMinChange={(value) => handleFilterChange('minMatchesStarted', value)}
-                                    onMaxChange={(value) => handleFilterChange('maxMatchesStarted', value)}
-                                    icon={FaUsers}
-                                />
+                                    <RangeInput
+                                        label="Goals + Assists Range"
+                                        minValue={filters.minGoalsAndAssists}
+                                        maxValue={filters.maxGoalsAndAssists}
+                                        onMinChange={(value) => handleFilterChange('minGoalsAndAssists', value)}
+                                        onMaxChange={(value) => handleFilterChange('maxGoalsAndAssists', value)}
+                                        icon={FaRankingStar}
+                                    />
 
-                                <RangeInput
-                                    label="Matches Played Range"
-                                    minValue={filters.minMatchesPlayed}
-                                    maxValue={filters.maxMatchesPlayed}
-                                    onMinChange={(value) => handleFilterChange('minMatchesPlayed', value)}
-                                    onMaxChange={(value) => handleFilterChange('maxMatchesPlayed', value)}
-                                    icon={FaFutbol}
-                                    step="0.1"
-                                />
+                                    <RangeInput
+                                        label="Matches Played Range"
+                                        minValue={filters.minMatchesPlayed}
+                                        maxValue={filters.maxMatchesPlayed}
+                                        onMinChange={(value) => handleFilterChange('minMatchesPlayed', value)}
+                                        onMaxChange={(value) => handleFilterChange('maxMatchesPlayed', value)}
+                                        icon={FaCalendar}
+                                    />
+
+                                    <RangeInput
+                                        label="Matches Started Range"
+                                        minValue={filters.minMatchesStarted}
+                                        maxValue={filters.maxMatchesStarted}
+                                        onMinChange={(value) => handleFilterChange('minMatchesStarted', value)}
+                                        onMaxChange={(value) => handleFilterChange('maxMatchesStarted', value)}
+                                        icon={FaCalendarCheck}
+                                    />
+                                </div>
                             </div>
-                        )}
+                            )}
 
                         {/* Action Buttons */}
                         <div className="flex justify-center space-x-4 mt-8">
@@ -441,7 +441,7 @@ const PlayerFilter = () => {
                             <button
                                 onClick={clearFilters}
                                 disabled={loadingOptions}
-                                className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                                className="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
                             >
                                 Clear All Filters
                             </button>
@@ -494,13 +494,13 @@ const PlayerFilter = () => {
                             <div className="max-w-md mx-auto">
                                 <img src="/images/logo.png" alt="Logo" className='w-25 h-20 mx-auto mb-6' />
                                 <h3 className="text-2xl font-medium text-gray-900 mb-4">
-                                    Set Your Filters
+                                    Set Filters
                                 </h3>
                                 <p className="text-gray-600 text-lg">
-                                    Use the filters above to find players that match your specific criteria, then click "Apply Filters" to see the results.
+                                    Use the optional filters above to find players that match your specific criteria, then click "Apply Filters" to see the results.
                                 </p>
-                                <div className="mt-8 p-4 bg-blue-50 rounded-lg">
-                                    <p className="text-blue-800 text-sm">
+                                <div className="mt-8 p-4 bg-red-50 rounded-lg">
+                                    <p className="text-red-800 text-sm">
                                         <strong>Tip:</strong> You can combine multiple filters to narrow down your search. Leave fields empty to ignore those criteria.
                                     </p>
                                 </div>
